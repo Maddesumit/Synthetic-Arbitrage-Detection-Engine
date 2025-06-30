@@ -1,0 +1,1 @@
+cmd='/opt/homebrew/bin/cmake;-DCMAKE_INSTALL_PREFIX=/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/external/catch2;-DCATCH_INSTALL_DOCS=OFF;-DCATCH_INSTALL_EXTRAS=OFF;-GUnix Makefiles;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'

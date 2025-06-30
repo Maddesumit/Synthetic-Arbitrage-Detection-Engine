@@ -1,0 +1,4 @@
+Name: nlohmann_json
+Description: JSON for Modern C++
+Version: 3.11.3
+Cflags: -I/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/external/nlohmann_json/include

@@ -1,0 +1,13 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/cmake_install.cmake",
+		"/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/cmake_install.cmake",
+		"/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core/cmake_install.cmake",
+		"/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/data/cmake_install.cmake",
+		"/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/utils/cmake_install.cmake",
+		"/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/ui/cmake_install.cmake",
+		"/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,13 @@
+# Target labels
+ catch2
+# Source files and their labels
+/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles/catch2
+/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles/catch2.rule
+/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles/catch2-complete.rule
+/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/catch2-prefix/src/catch2-stamp/catch2-build.rule
+/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/catch2-prefix/src/catch2-stamp/catch2-configure.rule
+/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/catch2-prefix/src/catch2-stamp/catch2-download.rule
+/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/catch2-prefix/src/catch2-stamp/catch2-install.rule
+/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/catch2-prefix/src/catch2-stamp/catch2-mkdir.rule
+/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/catch2-prefix/src/catch2-stamp/catch2-patch.rule
+/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/catch2-prefix/src/catch2-stamp/catch2-update.rule

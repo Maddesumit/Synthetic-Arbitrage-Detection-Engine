@@ -1,0 +1,2 @@
+/usr/bin/ar qc libarbitrage_utils.a CMakeFiles/arbitrage_utils.dir/ConfigManager.cpp.o CMakeFiles/arbitrage_utils.dir/Logger.cpp.o CMakeFiles/arbitrage_utils.dir/ErrorHandler.cpp.o CMakeFiles/arbitrage_utils.dir/ThreadUtils.cpp.o
+/usr/bin/ranlib libarbitrage_utils.a

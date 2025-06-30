@@ -1,0 +1,2 @@
+/usr/bin/ar qc libarbitrage_core.a CMakeFiles/arbitrage_core.dir/MathUtils.cpp.o CMakeFiles/arbitrage_core.dir/PricingEngine.cpp.o
+/usr/bin/ranlib libarbitrage_core.a

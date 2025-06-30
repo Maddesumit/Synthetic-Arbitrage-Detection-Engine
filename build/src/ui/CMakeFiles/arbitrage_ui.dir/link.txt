@@ -1,0 +1,2 @@
+/usr/bin/ar qc libarbitrage_ui.a CMakeFiles/arbitrage_ui.dir/HttpServer.cpp.o CMakeFiles/arbitrage_ui.dir/DataExporter.cpp.o CMakeFiles/arbitrage_ui.dir/DashboardApp.cpp.o
+/usr/bin/ranlib libarbitrage_ui.a

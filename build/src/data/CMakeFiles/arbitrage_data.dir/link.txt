@@ -1,0 +1,2 @@
+/usr/bin/ar qc libarbitrage_data.a CMakeFiles/arbitrage_data.dir/MarketData.cpp.o CMakeFiles/arbitrage_data.dir/WebSocketClient.cpp.o CMakeFiles/arbitrage_data.dir/BinanceClient.cpp.o
+/usr/bin/ranlib libarbitrage_data.a

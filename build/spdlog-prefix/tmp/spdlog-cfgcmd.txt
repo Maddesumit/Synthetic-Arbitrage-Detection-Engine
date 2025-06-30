@@ -1,0 +1,1 @@
+cmd='/opt/homebrew/bin/cmake;-DCMAKE_INSTALL_PREFIX=/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/external/spdlog;-DSPDLOG_BUILD_EXAMPLE=OFF;-DSPDLOG_BUILD_TESTS=OFF;-GUnix Makefiles;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'

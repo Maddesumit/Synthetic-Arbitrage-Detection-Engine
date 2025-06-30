@@ -1,0 +1,13 @@
+# Target labels
+ nlohmann_json
+# Source files and their labels
+/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles/nlohmann_json
+/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles/nlohmann_json.rule
+/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles/nlohmann_json-complete.rule
+/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/nlohmann_json-prefix/src/nlohmann_json-stamp/nlohmann_json-build.rule
+/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/nlohmann_json-prefix/src/nlohmann_json-stamp/nlohmann_json-configure.rule
+/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/nlohmann_json-prefix/src/nlohmann_json-stamp/nlohmann_json-download.rule
+/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/nlohmann_json-prefix/src/nlohmann_json-stamp/nlohmann_json-install.rule
+/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/nlohmann_json-prefix/src/nlohmann_json-stamp/nlohmann_json-mkdir.rule
+/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/nlohmann_json-prefix/src/nlohmann_json-stamp/nlohmann_json-patch.rule
+/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/nlohmann_json-prefix/src/nlohmann_json-stamp/nlohmann_json-update.rule
