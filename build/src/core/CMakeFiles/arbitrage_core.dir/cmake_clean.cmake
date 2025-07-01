@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.o"
+  "CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.o.d"
   "CMakeFiles/arbitrage_core.dir/MathUtils.cpp.o"
   "CMakeFiles/arbitrage_core.dir/MathUtils.cpp.o.d"
   "CMakeFiles/arbitrage_core.dir/PricingEngine.cpp.o"

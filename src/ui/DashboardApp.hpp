@@ -3,6 +3,7 @@
 #include "HttpServer.hpp"
 #include "DataExporter.hpp"
 #include "../core/PricingEngine.hpp"
+#include "../core/ArbitrageEngine.hpp"
 #include "../data/MarketData.hpp"
 #include <memory>
 #include <thread>
@@ -24,6 +25,11 @@ public:
      * @brief Initialize the dashboard with engine components
      */
     void initialize(std::shared_ptr<core::PricingEngine> pricing_engine);
+
+    /**
+     * @brief Initialize the dashboard with arbitrage engine
+     */
+    void initializeArbitrageEngine(std::shared_ptr<core::ArbitrageEngine> arbitrage_engine);
 
     /**
      * @brief Start the dashboard server
@@ -61,6 +67,26 @@ public:
     void updateArbitrageOpportunities(const std::vector<core::ArbitrageOpportunity>& opportunities);
 
     /**
+     * @brief Update extended arbitrage opportunities for display
+     */
+    void updateExtendedArbitrageOpportunities(const std::vector<core::ArbitrageOpportunityExtended>& opportunities);
+
+    /**
+     * @brief Start arbitrage detection
+     */
+    void startArbitrageDetection();
+
+    /**
+     * @brief Stop arbitrage detection
+     */
+    void stopArbitrageDetection();
+
+    /**
+     * @brief Get arbitrage engine performance metrics
+     */
+    nlohmann::json getArbitrageMetrics() const;
+
+    /**
      * @brief Get dashboard URL
      */
     std::string getDashboardUrl() const;
@@ -69,26 +95,36 @@ private:
     std::unique_ptr<HttpServer> http_server_;
     std::unique_ptr<DataExporter> data_exporter_;
     std::shared_ptr<core::PricingEngine> pricing_engine_;
+    std::shared_ptr<core::ArbitrageEngine> arbitrage_engine_;
     
     int port_;
     std::atomic<bool> running_;
+    std::atomic<bool> arbitrage_running_;
     std::thread update_thread_;
+    std::thread arbitrage_thread_;
     
     // Data storage for demo
     std::mutex data_mutex_;
     std::vector<data::MarketDataPoint> latest_market_data_;
     std::vector<core::PricingResult> latest_pricing_results_;
     std::vector<core::ArbitrageOpportunity> latest_opportunities_;
+    std::vector<core::ArbitrageOpportunityExtended> latest_extended_opportunities_;
     
     void setupRoutes();
     void runUpdateLoop();
+    void runArbitrageLoop();
     void updateDemoData();
     
     // Route handlers
     HttpResponse handleApiStatus(const HttpRequest& request);
     HttpResponse handleApiMarketData(const HttpRequest& request);
+    HttpResponse handleApiFilteredMarketData(const HttpRequest& request);
     HttpResponse handleApiPricingResults(const HttpRequest& request);
+    HttpResponse handleApiFilteredPricingResults(const HttpRequest& request);
     HttpResponse handleApiOpportunities(const HttpRequest& request);
+    HttpResponse handleApiExtendedOpportunities(const HttpRequest& request);
+    HttpResponse handleApiArbitrageMetrics(const HttpRequest& request);
+    HttpResponse handleApiArbitrageControl(const HttpRequest& request);
     HttpResponse handleApiPerformance(const HttpRequest& request);
     HttpResponse handleApiRisk(const HttpRequest& request);
     HttpResponse handleStaticFiles(const HttpRequest& request);

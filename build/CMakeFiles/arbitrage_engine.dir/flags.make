@@ -6,7 +6,7 @@ CXX_DEFINES = -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_FILESYSTEM_D
 
 CXX_INCLUDES = -I"/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src" -I"/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/external" -I"/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/.." -I"/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/external/xsimd/include" -I"/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/data/.." -I"/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/utils" -I"/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/external/nlohmann_json/include" -I"/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/external/spdlog/include" -isystem /Applications/anaconda3/include -isystem /opt/homebrew/Cellar/openssl@3/3.5.0/include
 
-CXX_FLAGSarm64 = -O3 -DNDEBUG -std=c++20 -arch arm64 -fPIE
+CXX_FLAGSarm64 = -std=c++20 -arch arm64 -fPIE
 
-CXX_FLAGS = -O3 -DNDEBUG -std=c++20 -arch arm64 -fPIE
+CXX_FLAGS = -std=c++20 -arch arm64 -fPIE
 

@@ -2,6 +2,7 @@
 add_library(arbitrage_core
     MathUtils.cpp
     PricingEngine.cpp
+    ArbitrageEngine.cpp
 )
 
 target_link_libraries(arbitrage_core 

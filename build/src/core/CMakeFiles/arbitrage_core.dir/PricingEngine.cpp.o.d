@@ -998,6 +998,7 @@ src/core/CMakeFiles/arbitrage_core.dir/PricingEngine.cpp.o: \
   /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/xsimd/include/xsimd/arch/xsimd_scalar.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/complex \
   /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/xsimd/include/xsimd/memory/xsimd_aligned_allocator.hpp \

@@ -169,8 +169,19 @@ target_link_libraries(dashboard_demo
     OpenSSL::Crypto
 )
 
+# Phase 4 demo executable (Arbitrage Detection Engine)
+add_executable(phase4_demo src/phase4_demo.cpp)
+target_link_libraries(phase4_demo
+    arbitrage_core
+    arbitrage_data
+    arbitrage_utils
+    Threads::Threads
+    OpenSSL::SSL
+    OpenSSL::Crypto
+)
+
 # Set output directories
-set_target_properties(arbitrage_engine phase2_demo phase3_demo dashboard_demo PROPERTIES
+set_target_properties(arbitrage_engine phase2_demo phase3_demo phase4_demo dashboard_demo PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin
 )
 

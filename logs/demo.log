@@ -1,0 +1,22 @@
+[2025-07-01 16:00:21.902] [main] [info] [thread 85998] Logging system initialized successfully
+[2025-07-01 16:00:21.902] [main] [info] [thread 85998] Console level: 2, File level: 1
+[2025-07-01 16:00:21.902] [main] [info] [thread 85998] ArbitrageEngine initialized with config:
+[2025-07-01 16:00:21.902] [main] [info] [thread 85998]   Min profit threshold: $5.000000
+[2025-07-01 16:00:21.902] [main] [info] [thread 85998]   Min profit percentage: 2.000000%
+[2025-07-01 16:00:21.902] [main] [info] [thread 85998]   Min confidence score: 0.600000
+[2025-07-01 16:00:21.902] [main] [info] [thread 85998]   Max position size: $5000.000000
+[2025-07-01 16:00:21.902] [main] [info] [thread 85998] ArbitrageEngine started
+[2025-07-01 16:00:21.902] [main] [debug] [thread 85998] Synthetic perpetual BTC-PERP on binance: spot=43480.000000, funding_rate=0.000100, synthetic=43432.356790
+[2025-07-01 16:00:21.902] [main] [debug] [thread 85998] Synthetic perpetual BTC-USDT on binance: spot=43500.000000, funding_rate=0.000100, synthetic=43452.334875
+[2025-07-01 16:00:21.902] [main] [debug] [thread 85998] Synthetic perpetual BTC-USDT on okx: spot=43520.000000, funding_rate=0.000200, synthetic=43424.625920
+[2025-07-01 16:00:21.902] [main] [debug] [thread 85998] Synthetic perpetual ETH-USDT on binance: spot=2650.000000, funding_rate=0.000150, synthetic=2645.644394
+[2025-07-01 16:00:21.902] [main] [debug] [thread 85998] Synthetic perpetual ETH-USDT on okx: spot=2645.000000, funding_rate=0.000300, synthetic=2636.305224
+[2025-07-01 16:00:21.902] [main] [debug] [thread 85998] Synthetic perpetual BTC-USDT on okx: spot=43520.000000, funding_rate=0.000200, synthetic=43424.625920
+[2025-07-01 16:00:21.902] [main] [debug] [thread 85998] Synthetic perpetual ETH-USDT on okx: spot=2645.000000, funding_rate=0.000300, synthetic=2636.305224
+[2025-07-01 16:00:21.902] [main] [debug] [thread 85998] Basis arbitrage detection not fully implemented
+[2025-07-01 16:00:21.902] [main] [debug] [thread 85998] Volatility arbitrage detection not fully implemented
+[2025-07-01 16:00:21.902] [main] [debug] [thread 85998] Statistical arbitrage detection not fully implemented
+[2025-07-01 16:00:21.902] [main] [info] [thread 85998] Detection cycle completed: 0 opportunities found in 0ms
+[2025-07-01 16:00:21.902] [main] [debug] [thread 85998] Synthetic perpetual BTC-USDT on binance: spot=43500.000000, funding_rate=0.000100, synthetic=43452.334875
+[2025-07-01 16:00:21.902] [main] [debug] [thread 85998] Synthetic future BTC-USDT expiring in 0.082136 years: 43679.012094
+[2025-07-01 16:00:21.902] [main] [info] [thread 85998] ArbitrageEngine stopped

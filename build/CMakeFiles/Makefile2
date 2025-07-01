@@ -72,6 +72,7 @@ all: CMakeFiles/arbitrage_engine.dir/all
 all: CMakeFiles/phase2_demo.dir/all
 all: CMakeFiles/phase3_demo.dir/all
 all: CMakeFiles/dashboard_demo.dir/all
+all: CMakeFiles/phase4_demo.dir/all
 all: src/all
 all: tests/all
 .PHONY : all
@@ -86,6 +87,7 @@ codegen: CMakeFiles/arbitrage_engine.dir/codegen
 codegen: CMakeFiles/phase2_demo.dir/codegen
 codegen: CMakeFiles/phase3_demo.dir/codegen
 codegen: CMakeFiles/dashboard_demo.dir/codegen
+codegen: CMakeFiles/phase4_demo.dir/codegen
 codegen: src/codegen
 codegen: tests/codegen
 .PHONY : codegen
@@ -105,6 +107,7 @@ clean: CMakeFiles/arbitrage_engine.dir/clean
 clean: CMakeFiles/phase2_demo.dir/clean
 clean: CMakeFiles/phase3_demo.dir/clean
 clean: CMakeFiles/dashboard_demo.dir/clean
+clean: CMakeFiles/phase4_demo.dir/clean
 clean: src/clean
 clean: tests/clean
 .PHONY : clean
@@ -242,7 +245,7 @@ tests/clean: tests/CMakeFiles/run_tests.dir/clean
 CMakeFiles/nlohmann_json.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nlohmann_json.dir/build.make CMakeFiles/nlohmann_json.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nlohmann_json.dir/build.make CMakeFiles/nlohmann_json.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=29,30,31,32,33,34,35,36 "Built target nlohmann_json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=30,31,32,33,34,35,36,37 "Built target nlohmann_json"
 .PHONY : CMakeFiles/nlohmann_json.dir/all
 
 # Build rule for subdir invocation for target.
@@ -259,7 +262,7 @@ nlohmann_json: CMakeFiles/nlohmann_json.dir/rule
 # codegen rule for target.
 CMakeFiles/nlohmann_json.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nlohmann_json.dir/build.make CMakeFiles/nlohmann_json.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=29,30,31,32,33,34,35,36 "Finished codegen for target nlohmann_json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=30,31,32,33,34,35,36,37 "Finished codegen for target nlohmann_json"
 .PHONY : CMakeFiles/nlohmann_json.dir/codegen
 
 # clean rule for target.
@@ -274,7 +277,7 @@ CMakeFiles/nlohmann_json.dir/clean:
 CMakeFiles/spdlog.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spdlog.dir/build.make CMakeFiles/spdlog.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spdlog.dir/build.make CMakeFiles/spdlog.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=43,44,45,46,47,48,49,50 "Built target spdlog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=46,47,48,49,50,51,52,53 "Built target spdlog"
 .PHONY : CMakeFiles/spdlog.dir/all
 
 # Build rule for subdir invocation for target.
@@ -291,7 +294,7 @@ spdlog: CMakeFiles/spdlog.dir/rule
 # codegen rule for target.
 CMakeFiles/spdlog.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spdlog.dir/build.make CMakeFiles/spdlog.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=43,44,45,46,47,48,49,50 "Finished codegen for target spdlog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=46,47,48,49,50,51,52,53 "Finished codegen for target spdlog"
 .PHONY : CMakeFiles/spdlog.dir/codegen
 
 # clean rule for target.
@@ -306,7 +309,7 @@ CMakeFiles/spdlog.dir/clean:
 CMakeFiles/catch2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/catch2.dir/build.make CMakeFiles/catch2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/catch2.dir/build.make CMakeFiles/catch2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=19,20,21,22,23,24,25,26 "Built target catch2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=20,21,22,23,24,25,26,27 "Built target catch2"
 .PHONY : CMakeFiles/catch2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -323,7 +326,7 @@ catch2: CMakeFiles/catch2.dir/rule
 # codegen rule for target.
 CMakeFiles/catch2.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/catch2.dir/build.make CMakeFiles/catch2.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=19,20,21,22,23,24,25,26 "Finished codegen for target catch2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=20,21,22,23,24,25,26,27 "Finished codegen for target catch2"
 .PHONY : CMakeFiles/catch2.dir/codegen
 
 # clean rule for target.
@@ -338,7 +341,7 @@ CMakeFiles/catch2.dir/clean:
 CMakeFiles/websocketpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/websocketpp.dir/build.make CMakeFiles/websocketpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/websocketpp.dir/build.make CMakeFiles/websocketpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=51,52,53,54,55,56,57,58 "Built target websocketpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=54,55,56,57,58,59,60,61 "Built target websocketpp"
 .PHONY : CMakeFiles/websocketpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -355,7 +358,7 @@ websocketpp: CMakeFiles/websocketpp.dir/rule
 # codegen rule for target.
 CMakeFiles/websocketpp.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/websocketpp.dir/build.make CMakeFiles/websocketpp.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=51,52,53,54,55,56,57,58 "Finished codegen for target websocketpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=54,55,56,57,58,59,60,61 "Finished codegen for target websocketpp"
 .PHONY : CMakeFiles/websocketpp.dir/codegen
 
 # clean rule for target.
@@ -370,7 +373,7 @@ CMakeFiles/websocketpp.dir/clean:
 CMakeFiles/xsimd.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/xsimd.dir/build.make CMakeFiles/xsimd.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/xsimd.dir/build.make CMakeFiles/xsimd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=59,60,61,62,63,64,65,66 "Built target xsimd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=62,63,64,65,66,67,68,69 "Built target xsimd"
 .PHONY : CMakeFiles/xsimd.dir/all
 
 # Build rule for subdir invocation for target.
@@ -387,7 +390,7 @@ xsimd: CMakeFiles/xsimd.dir/rule
 # codegen rule for target.
 CMakeFiles/xsimd.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/xsimd.dir/build.make CMakeFiles/xsimd.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=59,60,61,62,63,64,65,66 "Finished codegen for target xsimd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=62,63,64,65,66,67,68,69 "Finished codegen for target xsimd"
 .PHONY : CMakeFiles/xsimd.dir/codegen
 
 # clean rule for target.
@@ -406,12 +409,12 @@ CMakeFiles/arbitrage_engine.dir/all: src/data/CMakeFiles/arbitrage_data.dir/all
 CMakeFiles/arbitrage_engine.dir/all: src/utils/CMakeFiles/arbitrage_utils.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_engine.dir/build.make CMakeFiles/arbitrage_engine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_engine.dir/build.make CMakeFiles/arbitrage_engine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=8,9 "Built target arbitrage_engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=9,10 "Built target arbitrage_engine"
 .PHONY : CMakeFiles/arbitrage_engine.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/arbitrage_engine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" 30
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/arbitrage_engine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" 0
 .PHONY : CMakeFiles/arbitrage_engine.dir/rule
@@ -423,7 +426,7 @@ arbitrage_engine: CMakeFiles/arbitrage_engine.dir/rule
 # codegen rule for target.
 CMakeFiles/arbitrage_engine.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_engine.dir/build.make CMakeFiles/arbitrage_engine.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=8,9 "Finished codegen for target arbitrage_engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=9,10 "Finished codegen for target arbitrage_engine"
 .PHONY : CMakeFiles/arbitrage_engine.dir/codegen
 
 # clean rule for target.
@@ -441,7 +444,7 @@ CMakeFiles/phase2_demo.dir/all: src/data/CMakeFiles/arbitrage_data.dir/all
 CMakeFiles/phase2_demo.dir/all: src/utils/CMakeFiles/arbitrage_utils.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase2_demo.dir/build.make CMakeFiles/phase2_demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase2_demo.dir/build.make CMakeFiles/phase2_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=37,38 "Built target phase2_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=38,39 "Built target phase2_demo"
 .PHONY : CMakeFiles/phase2_demo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -458,7 +461,7 @@ phase2_demo: CMakeFiles/phase2_demo.dir/rule
 # codegen rule for target.
 CMakeFiles/phase2_demo.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase2_demo.dir/build.make CMakeFiles/phase2_demo.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=37,38 "Finished codegen for target phase2_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=38,39 "Finished codegen for target phase2_demo"
 .PHONY : CMakeFiles/phase2_demo.dir/codegen
 
 # clean rule for target.
@@ -477,12 +480,12 @@ CMakeFiles/phase3_demo.dir/all: src/data/CMakeFiles/arbitrage_data.dir/all
 CMakeFiles/phase3_demo.dir/all: src/utils/CMakeFiles/arbitrage_utils.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase3_demo.dir/build.make CMakeFiles/phase3_demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase3_demo.dir/build.make CMakeFiles/phase3_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=39,40 "Built target phase3_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=40,41 "Built target phase3_demo"
 .PHONY : CMakeFiles/phase3_demo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/phase3_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" 30
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/phase3_demo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" 0
 .PHONY : CMakeFiles/phase3_demo.dir/rule
@@ -494,7 +497,7 @@ phase3_demo: CMakeFiles/phase3_demo.dir/rule
 # codegen rule for target.
 CMakeFiles/phase3_demo.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase3_demo.dir/build.make CMakeFiles/phase3_demo.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=39,40 "Finished codegen for target phase3_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=40,41 "Finished codegen for target phase3_demo"
 .PHONY : CMakeFiles/phase3_demo.dir/codegen
 
 # clean rule for target.
@@ -514,12 +517,12 @@ CMakeFiles/dashboard_demo.dir/all: src/utils/CMakeFiles/arbitrage_utils.dir/all
 CMakeFiles/dashboard_demo.dir/all: src/ui/CMakeFiles/arbitrage_ui.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dashboard_demo.dir/build.make CMakeFiles/dashboard_demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dashboard_demo.dir/build.make CMakeFiles/dashboard_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=27,28 "Built target dashboard_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=28,29 "Built target dashboard_demo"
 .PHONY : CMakeFiles/dashboard_demo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dashboard_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" 34
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" 35
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dashboard_demo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" 0
 .PHONY : CMakeFiles/dashboard_demo.dir/rule
@@ -531,13 +534,49 @@ dashboard_demo: CMakeFiles/dashboard_demo.dir/rule
 # codegen rule for target.
 CMakeFiles/dashboard_demo.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dashboard_demo.dir/build.make CMakeFiles/dashboard_demo.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=27,28 "Finished codegen for target dashboard_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=28,29 "Finished codegen for target dashboard_demo"
 .PHONY : CMakeFiles/dashboard_demo.dir/codegen
 
 # clean rule for target.
 CMakeFiles/dashboard_demo.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dashboard_demo.dir/build.make CMakeFiles/dashboard_demo.dir/clean
 .PHONY : CMakeFiles/dashboard_demo.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/phase4_demo.dir
+
+# All Build rule for target.
+CMakeFiles/phase4_demo.dir/all: CMakeFiles/nlohmann_json.dir/all
+CMakeFiles/phase4_demo.dir/all: CMakeFiles/spdlog.dir/all
+CMakeFiles/phase4_demo.dir/all: src/core/CMakeFiles/arbitrage_core.dir/all
+CMakeFiles/phase4_demo.dir/all: src/data/CMakeFiles/arbitrage_data.dir/all
+CMakeFiles/phase4_demo.dir/all: src/utils/CMakeFiles/arbitrage_utils.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase4_demo.dir/build.make CMakeFiles/phase4_demo.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase4_demo.dir/build.make CMakeFiles/phase4_demo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=42,43 "Built target phase4_demo"
+.PHONY : CMakeFiles/phase4_demo.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/phase4_demo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" 31
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/phase4_demo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" 0
+.PHONY : CMakeFiles/phase4_demo.dir/rule
+
+# Convenience name for target.
+phase4_demo: CMakeFiles/phase4_demo.dir/rule
+.PHONY : phase4_demo
+
+# codegen rule for target.
+CMakeFiles/phase4_demo.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase4_demo.dir/build.make CMakeFiles/phase4_demo.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=42,43 "Finished codegen for target phase4_demo"
+.PHONY : CMakeFiles/phase4_demo.dir/codegen
+
+# clean rule for target.
+CMakeFiles/phase4_demo.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase4_demo.dir/build.make CMakeFiles/phase4_demo.dir/clean
+.PHONY : CMakeFiles/phase4_demo.dir/clean
 
 #=============================================================================
 # Target rules for target src/core/CMakeFiles/arbitrage_core.dir
@@ -549,12 +588,12 @@ src/core/CMakeFiles/arbitrage_core.dir/all: src/data/CMakeFiles/arbitrage_data.d
 src/core/CMakeFiles/arbitrage_core.dir/all: src/utils/CMakeFiles/arbitrage_utils.dir/all
 	$(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=1,2,3 "Built target arbitrage_core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=1,2,3,4 "Built target arbitrage_core"
 .PHONY : src/core/CMakeFiles/arbitrage_core.dir/all
 
 # Build rule for subdir invocation for target.
 src/core/CMakeFiles/arbitrage_core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" 28
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/core/CMakeFiles/arbitrage_core.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" 0
 .PHONY : src/core/CMakeFiles/arbitrage_core.dir/rule
@@ -566,7 +605,7 @@ arbitrage_core: src/core/CMakeFiles/arbitrage_core.dir/rule
 # codegen rule for target.
 src/core/CMakeFiles/arbitrage_core.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=1,2,3 "Finished codegen for target arbitrage_core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=1,2,3,4 "Finished codegen for target arbitrage_core"
 .PHONY : src/core/CMakeFiles/arbitrage_core.dir/codegen
 
 # clean rule for target.
@@ -583,7 +622,7 @@ src/data/CMakeFiles/arbitrage_data.dir/all: CMakeFiles/spdlog.dir/all
 src/data/CMakeFiles/arbitrage_data.dir/all: src/utils/CMakeFiles/arbitrage_utils.dir/all
 	$(MAKE) $(MAKESILENT) -f src/data/CMakeFiles/arbitrage_data.dir/build.make src/data/CMakeFiles/arbitrage_data.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/data/CMakeFiles/arbitrage_data.dir/build.make src/data/CMakeFiles/arbitrage_data.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=4,5,6,7 "Built target arbitrage_data"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=5,6,7,8 "Built target arbitrage_data"
 .PHONY : src/data/CMakeFiles/arbitrage_data.dir/all
 
 # Build rule for subdir invocation for target.
@@ -600,7 +639,7 @@ arbitrage_data: src/data/CMakeFiles/arbitrage_data.dir/rule
 # codegen rule for target.
 src/data/CMakeFiles/arbitrage_data.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f src/data/CMakeFiles/arbitrage_data.dir/build.make src/data/CMakeFiles/arbitrage_data.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=4,5,6,7 "Finished codegen for target arbitrage_data"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=5,6,7,8 "Finished codegen for target arbitrage_data"
 .PHONY : src/data/CMakeFiles/arbitrage_data.dir/codegen
 
 # clean rule for target.
@@ -616,7 +655,7 @@ src/utils/CMakeFiles/arbitrage_utils.dir/all: CMakeFiles/nlohmann_json.dir/all
 src/utils/CMakeFiles/arbitrage_utils.dir/all: CMakeFiles/spdlog.dir/all
 	$(MAKE) $(MAKESILENT) -f src/utils/CMakeFiles/arbitrage_utils.dir/build.make src/utils/CMakeFiles/arbitrage_utils.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/utils/CMakeFiles/arbitrage_utils.dir/build.make src/utils/CMakeFiles/arbitrage_utils.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=14,15,16,17,18 "Built target arbitrage_utils"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=15,16,17,18,19 "Built target arbitrage_utils"
 .PHONY : src/utils/CMakeFiles/arbitrage_utils.dir/all
 
 # Build rule for subdir invocation for target.
@@ -634,7 +673,7 @@ arbitrage_utils: src/utils/CMakeFiles/arbitrage_utils.dir/rule
 src/utils/CMakeFiles/arbitrage_utils.dir/codegen: CMakeFiles/nlohmann_json.dir/all
 src/utils/CMakeFiles/arbitrage_utils.dir/codegen: CMakeFiles/spdlog.dir/all
 	$(MAKE) $(MAKESILENT) -f src/utils/CMakeFiles/arbitrage_utils.dir/build.make src/utils/CMakeFiles/arbitrage_utils.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=14,15,16,17,18 "Finished codegen for target arbitrage_utils"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=15,16,17,18,19 "Finished codegen for target arbitrage_utils"
 .PHONY : src/utils/CMakeFiles/arbitrage_utils.dir/codegen
 
 # clean rule for target.
@@ -653,12 +692,12 @@ src/ui/CMakeFiles/arbitrage_ui.dir/all: src/data/CMakeFiles/arbitrage_data.dir/a
 src/ui/CMakeFiles/arbitrage_ui.dir/all: src/utils/CMakeFiles/arbitrage_utils.dir/all
 	$(MAKE) $(MAKESILENT) -f src/ui/CMakeFiles/arbitrage_ui.dir/build.make src/ui/CMakeFiles/arbitrage_ui.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/ui/CMakeFiles/arbitrage_ui.dir/build.make src/ui/CMakeFiles/arbitrage_ui.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=10,11,12,13 "Built target arbitrage_ui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=11,12,13,14 "Built target arbitrage_ui"
 .PHONY : src/ui/CMakeFiles/arbitrage_ui.dir/all
 
 # Build rule for subdir invocation for target.
 src/ui/CMakeFiles/arbitrage_ui.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" 32
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" 33
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ui/CMakeFiles/arbitrage_ui.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" 0
 .PHONY : src/ui/CMakeFiles/arbitrage_ui.dir/rule
@@ -670,7 +709,7 @@ arbitrage_ui: src/ui/CMakeFiles/arbitrage_ui.dir/rule
 # codegen rule for target.
 src/ui/CMakeFiles/arbitrage_ui.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f src/ui/CMakeFiles/arbitrage_ui.dir/build.make src/ui/CMakeFiles/arbitrage_ui.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=10,11,12,13 "Finished codegen for target arbitrage_ui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=11,12,13,14 "Finished codegen for target arbitrage_ui"
 .PHONY : src/ui/CMakeFiles/arbitrage_ui.dir/codegen
 
 # clean rule for target.
@@ -688,7 +727,7 @@ tests/CMakeFiles/run_tests.dir/all: CMakeFiles/catch2.dir/all
 tests/CMakeFiles/run_tests.dir/all: src/utils/CMakeFiles/arbitrage_utils.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/run_tests.dir/build.make tests/CMakeFiles/run_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/run_tests.dir/build.make tests/CMakeFiles/run_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=41,42 "Built target run_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=44,45 "Built target run_tests"
 .PHONY : tests/CMakeFiles/run_tests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -705,7 +744,7 @@ run_tests: tests/CMakeFiles/run_tests.dir/rule
 # codegen rule for target.
 tests/CMakeFiles/run_tests.dir/codegen: CMakeFiles/catch2.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/run_tests.dir/build.make tests/CMakeFiles/run_tests.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=41,42 "Finished codegen for target run_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=44,45 "Finished codegen for target run_tests"
 .PHONY : tests/CMakeFiles/run_tests.dir/codegen
 
 # clean rule for target.

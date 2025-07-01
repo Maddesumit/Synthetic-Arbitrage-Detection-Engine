@@ -100,19 +100,35 @@ src/core/CMakeFiles/arbitrage_core.dir/PricingEngine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/arbitrage_core.dir/PricingEngine.cpp.s"
 	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/PricingEngine.cpp" -o CMakeFiles/arbitrage_core.dir/PricingEngine.cpp.s
 
+src/core/CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.o: src/core/CMakeFiles/arbitrage_core.dir/flags.make
+src/core/CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.o: /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/core/ArbitrageEngine.cpp
+src/core/CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.o: src/core/CMakeFiles/arbitrage_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/core/CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.o"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/core/CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.o -MF CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.o.d -o CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.o -c "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/ArbitrageEngine.cpp"
+
+src/core/CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.i"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/ArbitrageEngine.cpp" > CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.i
+
+src/core/CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.s"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/ArbitrageEngine.cpp" -o CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.s
+
 # Object files for target arbitrage_core
 arbitrage_core_OBJECTS = \
 "CMakeFiles/arbitrage_core.dir/MathUtils.cpp.o" \
-"CMakeFiles/arbitrage_core.dir/PricingEngine.cpp.o"
+"CMakeFiles/arbitrage_core.dir/PricingEngine.cpp.o" \
+"CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.o"
 
 # External object files for target arbitrage_core
 arbitrage_core_EXTERNAL_OBJECTS =
 
 src/core/libarbitrage_core.a: src/core/CMakeFiles/arbitrage_core.dir/MathUtils.cpp.o
 src/core/libarbitrage_core.a: src/core/CMakeFiles/arbitrage_core.dir/PricingEngine.cpp.o
+src/core/libarbitrage_core.a: src/core/CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.o
 src/core/libarbitrage_core.a: src/core/CMakeFiles/arbitrage_core.dir/build.make
 src/core/libarbitrage_core.a: src/core/CMakeFiles/arbitrage_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libarbitrage_core.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libarbitrage_core.a"
 	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core" && $(CMAKE_COMMAND) -P CMakeFiles/arbitrage_core.dir/cmake_clean_target.cmake
 	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/arbitrage_core.dir/link.txt --verbose=$(VERBOSE)
 

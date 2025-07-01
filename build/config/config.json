@@ -1,0 +1,18 @@
+{
+  "arbitrage": {
+    "min_profit_threshold": 0.001,
+    "max_position_size": 1000000.0,
+    "risk_parameters": {
+      "max_drawdown": 0.05,
+      "var_confidence": 0.95
+    }
+  },
+  "market_data": {
+    "symbols": ["BTC-USDT", "ETH-USDT"],
+    "exchanges": ["BINANCE", "OKX", "BYBIT"]
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/arbitrage.log"
+  }
+}

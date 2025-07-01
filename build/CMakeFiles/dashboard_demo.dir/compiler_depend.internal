@@ -13,6 +13,7 @@ CMakeFiles/dashboard_demo.dir/src/dashboard_demo.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__xlocale.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_abort.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h
@@ -892,6 +893,7 @@ CMakeFiles/dashboard_demo.dir/src/dashboard_demo.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/complex
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/concepts
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/condition_variable
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/csignal
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint
@@ -988,6 +990,7 @@ CMakeFiles/dashboard_demo.dir/src/dashboard_demo.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/sched.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/runetype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sched.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/signal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdint.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdlib.h
@@ -1304,9 +1307,13 @@ CMakeFiles/dashboard_demo.dir/src/dashboard_demo.cpp.o
  /Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/external/xsimd/include/xsimd/types/xsimd_batch_constant.hpp
  /Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/external/xsimd/include/xsimd/types/xsimd_traits.hpp
  /Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/external/xsimd/include/xsimd/xsimd.hpp
+ /Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/ArbitrageEngine.hpp
  /Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/MathUtils.hpp
  /Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/PricingEngine.hpp
  /Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/data/MarketData.hpp
+ /Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/data/MarketData.hpp
+ /Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/utils/Logger.hpp
+ /Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/ArbitrageEngine.hpp
  /Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/MathUtils.hpp
  /Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/PricingEngine.hpp
  /Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/data/MarketData.hpp

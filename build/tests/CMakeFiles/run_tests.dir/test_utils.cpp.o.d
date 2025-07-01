@@ -817,6 +817,7 @@ tests/CMakeFiles/run_tests.dir/test_utils.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/has_single_bit.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
   /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/catch2/include/catch2/internal/catch_decomposer.hpp \
   /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/catch2/include/catch2/catch_tostring.hpp \

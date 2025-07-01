@@ -185,6 +185,30 @@ arbitrage_core/fast:
 	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/build
 .PHONY : arbitrage_core/fast
 
+ArbitrageEngine.o: ArbitrageEngine.cpp.o
+.PHONY : ArbitrageEngine.o
+
+# target to build an object file
+ArbitrageEngine.cpp.o:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.o
+.PHONY : ArbitrageEngine.cpp.o
+
+ArbitrageEngine.i: ArbitrageEngine.cpp.i
+.PHONY : ArbitrageEngine.i
+
+# target to preprocess a source file
+ArbitrageEngine.cpp.i:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.i
+.PHONY : ArbitrageEngine.cpp.i
+
+ArbitrageEngine.s: ArbitrageEngine.cpp.s
+.PHONY : ArbitrageEngine.s
+
+# target to generate assembly for a file
+ArbitrageEngine.cpp.s:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.s
+.PHONY : ArbitrageEngine.cpp.s
+
 MathUtils.o: MathUtils.cpp.o
 .PHONY : MathUtils.o
 
@@ -247,6 +271,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... arbitrage_core"
+	@echo "... ArbitrageEngine.o"
+	@echo "... ArbitrageEngine.i"
+	@echo "... ArbitrageEngine.s"
 	@echo "... MathUtils.o"
 	@echo "... MathUtils.i"
 	@echo "... MathUtils.s"

@@ -127,7 +127,29 @@ private:
         // Parse request line
         if (std::getline(stream, line)) {
             std::istringstream request_line(line);
-            request_line >> request.method >> request.path;
+            std::string full_path;
+            request_line >> request.method >> full_path;
+            
+            // Parse query parameters if present
+            size_t query_pos = full_path.find('?');
+            if (query_pos != std::string::npos) {
+                request.path = full_path.substr(0, query_pos);
+                std::string query_string = full_path.substr(query_pos + 1);
+                
+                // Parse query parameters
+                std::istringstream query_stream(query_string);
+                std::string param;
+                while (std::getline(query_stream, param, '&')) {
+                    size_t eq_pos = param.find('=');
+                    if (eq_pos != std::string::npos) {
+                        std::string key = param.substr(0, eq_pos);
+                        std::string value = param.substr(eq_pos + 1);
+                        request.query_params[key] = value;
+                    }
+                }
+            } else {
+                request.path = full_path;
+            }
         }
         
         // Parse headers

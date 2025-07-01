@@ -289,6 +289,19 @@ dashboard_demo/fast:
 .PHONY : dashboard_demo/fast
 
 #=============================================================================
+# Target rules for targets named phase4_demo
+
+# Build rule for target.
+phase4_demo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 phase4_demo
+.PHONY : phase4_demo
+
+# fast build rule for target.
+phase4_demo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase4_demo.dir/build.make CMakeFiles/phase4_demo.dir/build
+.PHONY : phase4_demo/fast
+
+#=============================================================================
 # Target rules for targets named arbitrage_core
 
 # Build rule for target.
@@ -449,6 +462,30 @@ src/phase3_demo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase3_demo.dir/build.make CMakeFiles/phase3_demo.dir/src/phase3_demo.cpp.s
 .PHONY : src/phase3_demo.cpp.s
 
+src/phase4_demo.o: src/phase4_demo.cpp.o
+.PHONY : src/phase4_demo.o
+
+# target to build an object file
+src/phase4_demo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase4_demo.dir/build.make CMakeFiles/phase4_demo.dir/src/phase4_demo.cpp.o
+.PHONY : src/phase4_demo.cpp.o
+
+src/phase4_demo.i: src/phase4_demo.cpp.i
+.PHONY : src/phase4_demo.i
+
+# target to preprocess a source file
+src/phase4_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase4_demo.dir/build.make CMakeFiles/phase4_demo.dir/src/phase4_demo.cpp.i
+.PHONY : src/phase4_demo.cpp.i
+
+src/phase4_demo.s: src/phase4_demo.cpp.s
+.PHONY : src/phase4_demo.s
+
+# target to generate assembly for a file
+src/phase4_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase4_demo.dir/build.make CMakeFiles/phase4_demo.dir/src/phase4_demo.cpp.s
+.PHONY : src/phase4_demo.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -475,6 +512,7 @@ help:
 	@echo "... dashboard_demo"
 	@echo "... phase2_demo"
 	@echo "... phase3_demo"
+	@echo "... phase4_demo"
 	@echo "... run_tests"
 	@echo "... src/dashboard_demo.o"
 	@echo "... src/dashboard_demo.i"
@@ -488,6 +526,9 @@ help:
 	@echo "... src/phase3_demo.o"
 	@echo "... src/phase3_demo.i"
 	@echo "... src/phase3_demo.s"
+	@echo "... src/phase4_demo.o"
+	@echo "... src/phase4_demo.i"
+	@echo "... src/phase4_demo.s"
 .PHONY : help
 
 
