@@ -25179,4 +25179,699 @@
 [2025-07-01 17:00:15.740] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2300.724302, funding_rate=0.000000, synthetic=2300.724302
 [2025-07-01 17:00:15.740] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2300.265293, funding_rate=0.000000, synthetic=2300.265293
 [2025-07-01 17:00:15.740] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2309.790069, funding_rate=0.000000, synthetic=2309.790069
-[2025-07-01 17:00:15.740] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spo
+[2025-07-01 17:00:15.740] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:15.740] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:15.740] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:15.740] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:15.740] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:15.740] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:15.740] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:15.740] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 0ms
+[2025-07-01 17:00:15.740] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:16.741] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:16.741] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:16.741] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43500.314397, funding_rate=0.000000, synthetic=43500.314397
+[2025-07-01 17:00:16.741] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43506.927029, funding_rate=0.000000, synthetic=43506.927029
+[2025-07-01 17:00:16.741] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43495.635606, funding_rate=0.000000, synthetic=43495.635606
+[2025-07-01 17:00:16.741] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:16.741] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:16.741] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:16.741] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2301.838375, funding_rate=0.000000, synthetic=2301.838375
+[2025-07-01 17:00:16.741] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2301.602277, funding_rate=0.000000, synthetic=2301.602277
+[2025-07-01 17:00:16.742] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2297.538206, funding_rate=0.000000, synthetic=2297.538206
+[2025-07-01 17:00:16.742] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:16.742] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:16.742] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:16.742] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:16.742] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:16.742] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:16.742] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:16.742] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 1ms
+[2025-07-01 17:00:16.742] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:17.747] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:17.747] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:17.748] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43497.434713, funding_rate=0.000000, synthetic=43497.434713
+[2025-07-01 17:00:17.748] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43505.052831, funding_rate=0.000000, synthetic=43505.052831
+[2025-07-01 17:00:17.748] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43501.252421, funding_rate=0.000000, synthetic=43501.252421
+[2025-07-01 17:00:17.748] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:17.748] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:17.748] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:17.748] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2297.587436, funding_rate=0.000000, synthetic=2297.587436
+[2025-07-01 17:00:17.748] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2301.925311, funding_rate=0.000000, synthetic=2301.925311
+[2025-07-01 17:00:17.748] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2293.217291, funding_rate=0.000000, synthetic=2293.217291
+[2025-07-01 17:00:17.748] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:17.748] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:17.748] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:17.748] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:17.748] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:17.748] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:17.748] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:17.748] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 1ms
+[2025-07-01 17:00:17.748] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:18.754] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:18.754] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:18.754] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43499.895180, funding_rate=0.000000, synthetic=43499.895180
+[2025-07-01 17:00:18.754] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43504.600348, funding_rate=0.000000, synthetic=43504.600348
+[2025-07-01 17:00:18.754] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43505.443126, funding_rate=0.000000, synthetic=43505.443126
+[2025-07-01 17:00:18.754] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:18.754] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:18.754] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:18.754] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2301.096304, funding_rate=0.000000, synthetic=2301.096304
+[2025-07-01 17:00:18.754] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2301.318229, funding_rate=0.000000, synthetic=2301.318229
+[2025-07-01 17:00:18.754] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2308.915081, funding_rate=0.000000, synthetic=2308.915081
+[2025-07-01 17:00:18.754] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:18.754] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:18.754] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:18.755] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:18.755] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:18.755] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:18.755] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:18.755] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 1ms
+[2025-07-01 17:00:18.755] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:19.759] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:19.759] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:19.759] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43501.975659, funding_rate=0.000000, synthetic=43501.975659
+[2025-07-01 17:00:19.759] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43503.189988, funding_rate=0.000000, synthetic=43503.189988
+[2025-07-01 17:00:19.759] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43503.674846, funding_rate=0.000000, synthetic=43503.674846
+[2025-07-01 17:00:19.759] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:19.759] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:19.759] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:19.760] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2303.699297, funding_rate=0.000000, synthetic=2303.699297
+[2025-07-01 17:00:19.760] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2309.338986, funding_rate=0.000000, synthetic=2309.338986
+[2025-07-01 17:00:19.760] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2310.778514, funding_rate=0.000000, synthetic=2310.778514
+[2025-07-01 17:00:19.760] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:19.760] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:19.760] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:19.760] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:19.760] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:19.760] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:19.760] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:19.760] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 1ms
+[2025-07-01 17:00:19.760] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:20.761] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:20.761] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:20.761] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43508.475753, funding_rate=0.000000, synthetic=43508.475753
+[2025-07-01 17:00:20.761] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43497.765403, funding_rate=0.000000, synthetic=43497.765403
+[2025-07-01 17:00:20.762] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43508.494074, funding_rate=0.000000, synthetic=43508.494074
+[2025-07-01 17:00:20.762] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:20.762] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:20.762] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:20.762] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2305.632968, funding_rate=0.000000, synthetic=2305.632968
+[2025-07-01 17:00:20.762] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2300.504597, funding_rate=0.000000, synthetic=2300.504597
+[2025-07-01 17:00:20.762] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2297.878369, funding_rate=0.000000, synthetic=2297.878369
+[2025-07-01 17:00:20.762] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:20.762] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:20.762] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:20.762] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:20.762] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:20.762] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:20.762] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:20.762] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 1ms
+[2025-07-01 17:00:20.762] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:21.767] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:21.767] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:21.768] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43495.676006, funding_rate=0.000000, synthetic=43495.676006
+[2025-07-01 17:00:21.768] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43505.979465, funding_rate=0.000000, synthetic=43505.979465
+[2025-07-01 17:00:21.768] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43504.364623, funding_rate=0.000000, synthetic=43504.364623
+[2025-07-01 17:00:21.768] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:21.768] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:21.768] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:21.768] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2309.151288, funding_rate=0.000000, synthetic=2309.151288
+[2025-07-01 17:00:21.768] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2308.266889, funding_rate=0.000000, synthetic=2308.266889
+[2025-07-01 17:00:21.768] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2303.039319, funding_rate=0.000000, synthetic=2303.039319
+[2025-07-01 17:00:21.768] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:21.768] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:21.768] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:21.768] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:21.768] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:21.768] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:21.768] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:21.768] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 0ms
+[2025-07-01 17:00:21.768] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:22.773] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:22.773] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:22.773] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43506.349157, funding_rate=0.000000, synthetic=43506.349157
+[2025-07-01 17:00:22.773] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43509.503854, funding_rate=0.000000, synthetic=43509.503854
+[2025-07-01 17:00:22.773] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43511.161806, funding_rate=0.000000, synthetic=43511.161806
+[2025-07-01 17:00:22.774] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:22.774] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:22.774] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:22.774] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2302.583145, funding_rate=0.000000, synthetic=2302.583145
+[2025-07-01 17:00:22.774] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2304.150346, funding_rate=0.000000, synthetic=2304.150346
+[2025-07-01 17:00:22.774] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2296.103820, funding_rate=0.000000, synthetic=2296.103820
+[2025-07-01 17:00:22.774] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:22.774] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:22.774] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:22.774] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:22.774] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:22.774] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:22.774] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:22.774] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 1ms
+[2025-07-01 17:00:22.774] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:23.780] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:23.780] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:23.780] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43507.929377, funding_rate=0.000000, synthetic=43507.929377
+[2025-07-01 17:00:23.780] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43495.142817, funding_rate=0.000000, synthetic=43495.142817
+[2025-07-01 17:00:23.780] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43501.746058, funding_rate=0.000000, synthetic=43501.746058
+[2025-07-01 17:00:23.780] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:23.780] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:23.780] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:23.780] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2296.660487, funding_rate=0.000000, synthetic=2296.660487
+[2025-07-01 17:00:23.780] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2295.552943, funding_rate=0.000000, synthetic=2295.552943
+[2025-07-01 17:00:23.780] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2291.538894, funding_rate=0.000000, synthetic=2291.538894
+[2025-07-01 17:00:23.780] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:23.780] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:23.780] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:23.780] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:23.781] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:23.781] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:23.781] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:23.781] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 1ms
+[2025-07-01 17:00:23.781] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:24.786] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:24.786] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:24.786] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43500.655870, funding_rate=0.000000, synthetic=43500.655870
+[2025-07-01 17:00:24.786] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43502.365231, funding_rate=0.000000, synthetic=43502.365231
+[2025-07-01 17:00:24.786] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43501.542617, funding_rate=0.000000, synthetic=43501.542617
+[2025-07-01 17:00:24.786] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:24.786] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:24.786] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:24.787] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2301.031530, funding_rate=0.000000, synthetic=2301.031530
+[2025-07-01 17:00:24.787] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2306.582086, funding_rate=0.000000, synthetic=2306.582086
+[2025-07-01 17:00:24.787] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2297.414278, funding_rate=0.000000, synthetic=2297.414278
+[2025-07-01 17:00:24.787] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:24.787] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:24.787] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:24.787] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:24.787] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:24.787] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:24.787] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:24.787] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 1ms
+[2025-07-01 17:00:24.787] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:25.792] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:25.792] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:25.793] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43510.223474, funding_rate=0.000000, synthetic=43510.223474
+[2025-07-01 17:00:25.793] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43500.673245, funding_rate=0.000000, synthetic=43500.673245
+[2025-07-01 17:00:25.793] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43495.334644, funding_rate=0.000000, synthetic=43495.334644
+[2025-07-01 17:00:25.793] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:25.793] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:25.793] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:25.793] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2294.081620, funding_rate=0.000000, synthetic=2294.081620
+[2025-07-01 17:00:25.793] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2300.029451, funding_rate=0.000000, synthetic=2300.029451
+[2025-07-01 17:00:25.793] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2301.066298, funding_rate=0.000000, synthetic=2301.066298
+[2025-07-01 17:00:25.793] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:25.793] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:25.793] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:25.793] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:25.793] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:25.793] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:25.793] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:25.793] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 0ms
+[2025-07-01 17:00:25.793] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:26.798] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:26.798] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:26.798] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43498.263021, funding_rate=0.000000, synthetic=43498.263021
+[2025-07-01 17:00:26.798] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43499.402568, funding_rate=0.000000, synthetic=43499.402568
+[2025-07-01 17:00:26.798] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43511.368382, funding_rate=0.000000, synthetic=43511.368382
+[2025-07-01 17:00:26.798] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:26.799] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:26.799] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:26.799] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2293.589741, funding_rate=0.000000, synthetic=2293.589741
+[2025-07-01 17:00:26.799] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2299.708214, funding_rate=0.000000, synthetic=2299.708214
+[2025-07-01 17:00:26.799] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2310.956347, funding_rate=0.000000, synthetic=2310.956347
+[2025-07-01 17:00:26.799] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:26.799] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:26.799] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:26.799] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:26.799] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:26.799] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:26.799] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:26.799] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 1ms
+[2025-07-01 17:00:26.799] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:27.802] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:27.802] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:27.803] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43505.452739, funding_rate=0.000000, synthetic=43505.452739
+[2025-07-01 17:00:27.803] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43503.580098, funding_rate=0.000000, synthetic=43503.580098
+[2025-07-01 17:00:27.803] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43509.077329, funding_rate=0.000000, synthetic=43509.077329
+[2025-07-01 17:00:27.803] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:27.803] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:27.803] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:27.803] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2296.568299, funding_rate=0.000000, synthetic=2296.568299
+[2025-07-01 17:00:27.803] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2293.072817, funding_rate=0.000000, synthetic=2293.072817
+[2025-07-01 17:00:27.803] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2295.804143, funding_rate=0.000000, synthetic=2295.804143
+[2025-07-01 17:00:27.803] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:27.803] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:27.803] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:27.803] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:27.804] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:27.804] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:27.804] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:27.804] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 1ms
+[2025-07-01 17:00:27.804] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:28.805] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:28.805] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:28.805] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43504.482974, funding_rate=0.000000, synthetic=43504.482974
+[2025-07-01 17:00:28.805] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43506.493150, funding_rate=0.000000, synthetic=43506.493150
+[2025-07-01 17:00:28.805] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43505.633663, funding_rate=0.000000, synthetic=43505.633663
+[2025-07-01 17:00:28.805] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:28.805] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:28.805] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:28.805] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2299.469405, funding_rate=0.000000, synthetic=2299.469405
+[2025-07-01 17:00:28.806] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2297.986909, funding_rate=0.000000, synthetic=2297.986909
+[2025-07-01 17:00:28.806] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2299.924851, funding_rate=0.000000, synthetic=2299.924851
+[2025-07-01 17:00:28.806] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:28.806] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:28.806] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:28.806] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:28.806] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:28.806] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:28.806] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:28.807] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 1ms
+[2025-07-01 17:00:28.807] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:29.809] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:29.809] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:29.809] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43502.753392, funding_rate=0.000000, synthetic=43502.753392
+[2025-07-01 17:00:29.809] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43506.666247, funding_rate=0.000000, synthetic=43506.666247
+[2025-07-01 17:00:29.809] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43511.651314, funding_rate=0.000000, synthetic=43511.651314
+[2025-07-01 17:00:29.809] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:29.809] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:29.809] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:29.810] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2291.536225, funding_rate=0.000000, synthetic=2291.536225
+[2025-07-01 17:00:29.810] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2310.185187, funding_rate=0.000000, synthetic=2310.185187
+[2025-07-01 17:00:29.810] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2295.329731, funding_rate=0.000000, synthetic=2295.329731
+[2025-07-01 17:00:29.810] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:29.810] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:29.810] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:29.810] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:29.810] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:29.810] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:29.810] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:29.810] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 1ms
+[2025-07-01 17:00:29.810] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:30.815] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:30.815] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:30.815] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43500.086489, funding_rate=0.000000, synthetic=43500.086489
+[2025-07-01 17:00:30.815] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43508.387803, funding_rate=0.000000, synthetic=43508.387803
+[2025-07-01 17:00:30.815] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43501.755088, funding_rate=0.000000, synthetic=43501.755088
+[2025-07-01 17:00:30.815] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:30.815] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:30.815] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:30.815] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2302.163249, funding_rate=0.000000, synthetic=2302.163249
+[2025-07-01 17:00:30.815] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2306.250326, funding_rate=0.000000, synthetic=2306.250326
+[2025-07-01 17:00:30.815] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2299.995252, funding_rate=0.000000, synthetic=2299.995252
+[2025-07-01 17:00:30.816] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:30.816] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:30.816] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:30.816] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:30.816] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:30.816] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:30.816] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:30.816] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 0ms
+[2025-07-01 17:00:30.816] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:31.816] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:31.816] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:31.816] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43508.950876, funding_rate=0.000000, synthetic=43508.950876
+[2025-07-01 17:00:31.816] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43502.847637, funding_rate=0.000000, synthetic=43502.847637
+[2025-07-01 17:00:31.816] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43510.171696, funding_rate=0.000000, synthetic=43510.171696
+[2025-07-01 17:00:31.816] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:31.816] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:31.816] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:31.816] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2301.795656, funding_rate=0.000000, synthetic=2301.795656
+[2025-07-01 17:00:31.816] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2304.443218, funding_rate=0.000000, synthetic=2304.443218
+[2025-07-01 17:00:31.816] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2294.172333, funding_rate=0.000000, synthetic=2294.172333
+[2025-07-01 17:00:31.817] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:31.817] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:31.817] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:31.817] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:31.817] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:31.817] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:31.817] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:31.817] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 0ms
+[2025-07-01 17:00:31.817] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:32.822] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:32.822] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:32.822] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43503.707902, funding_rate=0.000000, synthetic=43503.707902
+[2025-07-01 17:00:32.822] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43501.330701, funding_rate=0.000000, synthetic=43501.330701
+[2025-07-01 17:00:32.822] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43509.317544, funding_rate=0.000000, synthetic=43509.317544
+[2025-07-01 17:00:32.822] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:32.822] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:32.822] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:32.823] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2308.823418, funding_rate=0.000000, synthetic=2308.823418
+[2025-07-01 17:00:32.823] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2309.337260, funding_rate=0.000000, synthetic=2309.337260
+[2025-07-01 17:00:32.823] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2295.559742, funding_rate=0.000000, synthetic=2295.559742
+[2025-07-01 17:00:32.823] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:32.823] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:32.823] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:32.823] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:32.823] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:32.823] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:32.823] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:32.823] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 1ms
+[2025-07-01 17:00:32.823] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:33.827] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:33.827] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:33.827] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43508.623165, funding_rate=0.000000, synthetic=43508.623165
+[2025-07-01 17:00:33.827] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43503.003431, funding_rate=0.000000, synthetic=43503.003431
+[2025-07-01 17:00:33.827] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43510.059884, funding_rate=0.000000, synthetic=43510.059884
+[2025-07-01 17:00:33.827] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:33.827] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:33.827] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:33.827] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2301.175911, funding_rate=0.000000, synthetic=2301.175911
+[2025-07-01 17:00:33.827] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2307.332691, funding_rate=0.000000, synthetic=2307.332691
+[2025-07-01 17:00:33.827] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2308.820275, funding_rate=0.000000, synthetic=2308.820275
+[2025-07-01 17:00:33.827] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:33.827] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:33.827] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:33.827] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:33.827] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:33.827] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:33.827] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:33.827] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 0ms
+[2025-07-01 17:00:33.827] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:34.832] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:34.832] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:34.832] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43503.437358, funding_rate=0.000000, synthetic=43503.437358
+[2025-07-01 17:00:34.832] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43508.521322, funding_rate=0.000000, synthetic=43508.521322
+[2025-07-01 17:00:34.832] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43511.184802, funding_rate=0.000000, synthetic=43511.184802
+[2025-07-01 17:00:34.832] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:34.832] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:34.832] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:34.832] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2310.122408, funding_rate=0.000000, synthetic=2310.122408
+[2025-07-01 17:00:34.832] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2296.118140, funding_rate=0.000000, synthetic=2296.118140
+[2025-07-01 17:00:34.832] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2304.059889, funding_rate=0.000000, synthetic=2304.059889
+[2025-07-01 17:00:34.832] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:34.832] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:34.832] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:34.832] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:34.832] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:34.832] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:34.832] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:34.832] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 0ms
+[2025-07-01 17:00:34.832] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:35.838] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:35.838] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:35.838] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43511.793229, funding_rate=0.000000, synthetic=43511.793229
+[2025-07-01 17:00:35.838] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43497.713334, funding_rate=0.000000, synthetic=43497.713334
+[2025-07-01 17:00:35.838] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43496.972952, funding_rate=0.000000, synthetic=43496.972952
+[2025-07-01 17:00:35.838] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:35.838] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:35.838] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:35.838] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2310.156117, funding_rate=0.000000, synthetic=2310.156117
+[2025-07-01 17:00:35.838] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2299.774135, funding_rate=0.000000, synthetic=2299.774135
+[2025-07-01 17:00:35.838] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2309.574503, funding_rate=0.000000, synthetic=2309.574503
+[2025-07-01 17:00:35.838] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:35.838] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:35.838] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:35.838] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:35.838] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:35.838] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:35.838] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:35.838] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 0ms
+[2025-07-01 17:00:35.838] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:36.843] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:36.843] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:36.843] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43498.919871, funding_rate=0.000000, synthetic=43498.919871
+[2025-07-01 17:00:36.843] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43499.796410, funding_rate=0.000000, synthetic=43499.796410
+[2025-07-01 17:00:36.843] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43504.420097, funding_rate=0.000000, synthetic=43504.420097
+[2025-07-01 17:00:36.843] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:36.843] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:36.843] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:36.843] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2303.508581, funding_rate=0.000000, synthetic=2303.508581
+[2025-07-01 17:00:36.843] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2300.157261, funding_rate=0.000000, synthetic=2300.157261
+[2025-07-01 17:00:36.843] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2308.713453, funding_rate=0.000000, synthetic=2308.713453
+[2025-07-01 17:00:36.843] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:36.843] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:36.843] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:36.843] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:36.844] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:36.844] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:36.844] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:36.844] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 0ms
+[2025-07-01 17:00:36.844] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:37.849] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:37.849] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:37.849] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43494.734714, funding_rate=0.000000, synthetic=43494.734714
+[2025-07-01 17:00:37.849] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43502.234728, funding_rate=0.000000, synthetic=43502.234728
+[2025-07-01 17:00:37.849] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43504.070522, funding_rate=0.000000, synthetic=43504.070522
+[2025-07-01 17:00:37.849] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:37.849] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:37.849] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:37.849] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2310.858016, funding_rate=0.000000, synthetic=2310.858016
+[2025-07-01 17:00:37.849] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2307.771559, funding_rate=0.000000, synthetic=2307.771559
+[2025-07-01 17:00:37.849] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2302.758998, funding_rate=0.000000, synthetic=2302.758998
+[2025-07-01 17:00:37.849] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:37.849] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:37.849] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:37.850] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:37.850] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:37.850] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:37.850] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:37.850] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 1ms
+[2025-07-01 17:00:37.850] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:38.851] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:38.851] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:38.851] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43499.539965, funding_rate=0.000000, synthetic=43499.539965
+[2025-07-01 17:00:38.851] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43503.670451, funding_rate=0.000000, synthetic=43503.670451
+[2025-07-01 17:00:38.851] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43495.506845, funding_rate=0.000000, synthetic=43495.506845
+[2025-07-01 17:00:38.851] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:38.851] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:38.851] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:38.851] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2296.343812, funding_rate=0.000000, synthetic=2296.343812
+[2025-07-01 17:00:38.851] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2301.155952, funding_rate=0.000000, synthetic=2301.155952
+[2025-07-01 17:00:38.851] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2309.050407, funding_rate=0.000000, synthetic=2309.050407
+[2025-07-01 17:00:38.851] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:38.851] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:38.851] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:38.851] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:38.851] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:38.851] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:38.851] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:38.851] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 0ms
+[2025-07-01 17:00:38.851] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:39.856] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:39.856] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:39.856] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43492.687884, funding_rate=0.000000, synthetic=43492.687884
+[2025-07-01 17:00:39.856] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43502.532329, funding_rate=0.000000, synthetic=43502.532329
+[2025-07-01 17:00:39.856] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43494.489999, funding_rate=0.000000, synthetic=43494.489999
+[2025-07-01 17:00:39.856] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:39.856] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:39.856] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:39.856] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2302.550044, funding_rate=0.000000, synthetic=2302.550044
+[2025-07-01 17:00:39.856] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2307.716264, funding_rate=0.000000, synthetic=2307.716264
+[2025-07-01 17:00:39.856] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2300.812924, funding_rate=0.000000, synthetic=2300.812924
+[2025-07-01 17:00:39.856] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:39.856] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:39.856] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:39.856] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:39.856] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:39.856] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:39.856] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:39.856] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 0ms
+[2025-07-01 17:00:39.856] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:40.862] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:40.862] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:40.862] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43510.319522, funding_rate=0.000000, synthetic=43510.319522
+[2025-07-01 17:00:40.862] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43493.952843, funding_rate=0.000000, synthetic=43493.952843
+[2025-07-01 17:00:40.862] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43500.615016, funding_rate=0.000000, synthetic=43500.615016
+[2025-07-01 17:00:40.862] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:40.862] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:40.862] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:40.862] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2304.517977, funding_rate=0.000000, synthetic=2304.517977
+[2025-07-01 17:00:40.862] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2310.750943, funding_rate=0.000000, synthetic=2310.750943
+[2025-07-01 17:00:40.862] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2306.051312, funding_rate=0.000000, synthetic=2306.051312
+[2025-07-01 17:00:40.862] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:40.863] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:40.863] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:40.863] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:40.863] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:40.863] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:40.863] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:40.863] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 1ms
+[2025-07-01 17:00:40.863] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:41.868] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:41.869] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:41.869] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43504.287255, funding_rate=0.000000, synthetic=43504.287255
+[2025-07-01 17:00:41.869] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43496.566368, funding_rate=0.000000, synthetic=43496.566368
+[2025-07-01 17:00:41.869] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43505.056939, funding_rate=0.000000, synthetic=43505.056939
+[2025-07-01 17:00:41.869] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:41.869] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:41.869] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:41.869] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2297.653450, funding_rate=0.000000, synthetic=2297.653450
+[2025-07-01 17:00:41.869] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2301.535900, funding_rate=0.000000, synthetic=2301.535900
+[2025-07-01 17:00:41.869] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2294.618713, funding_rate=0.000000, synthetic=2294.618713
+[2025-07-01 17:00:41.869] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:41.869] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:41.869] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:41.870] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:41.870] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:41.870] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:41.870] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:41.870] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 1ms
+[2025-07-01 17:00:41.870] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:42.875] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:42.875] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:42.875] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43494.803405, funding_rate=0.000000, synthetic=43494.803405
+[2025-07-01 17:00:42.875] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43493.856825, funding_rate=0.000000, synthetic=43493.856825
+[2025-07-01 17:00:42.875] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43508.371773, funding_rate=0.000000, synthetic=43508.371773
+[2025-07-01 17:00:42.875] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:42.875] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:42.875] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:42.876] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2301.085180, funding_rate=0.000000, synthetic=2301.085180
+[2025-07-01 17:00:42.876] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2300.196372, funding_rate=0.000000, synthetic=2300.196372
+[2025-07-01 17:00:42.876] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2304.407054, funding_rate=0.000000, synthetic=2304.407054
+[2025-07-01 17:00:42.876] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:42.876] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:42.876] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:42.876] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:42.876] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:42.876] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:42.876] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:42.876] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 1ms
+[2025-07-01 17:00:42.877] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:43.877] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:43.877] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:43.877] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43492.805100, funding_rate=0.000000, synthetic=43492.805100
+[2025-07-01 17:00:43.877] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43499.877963, funding_rate=0.000000, synthetic=43499.877963
+[2025-07-01 17:00:43.877] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43507.132891, funding_rate=0.000000, synthetic=43507.132891
+[2025-07-01 17:00:43.877] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:43.877] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:43.877] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:43.877] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2300.388474, funding_rate=0.000000, synthetic=2300.388474
+[2025-07-01 17:00:43.877] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2304.273742, funding_rate=0.000000, synthetic=2304.273742
+[2025-07-01 17:00:43.877] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2293.833559, funding_rate=0.000000, synthetic=2293.833559
+[2025-07-01 17:00:43.877] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:43.877] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:43.877] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:43.877] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:43.877] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:43.877] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:43.877] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:43.877] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 0ms
+[2025-07-01 17:00:43.877] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:44.879] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:44.879] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:44.879] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43494.448864, funding_rate=0.000000, synthetic=43494.448864
+[2025-07-01 17:00:44.879] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43508.724311, funding_rate=0.000000, synthetic=43508.724311
+[2025-07-01 17:00:44.879] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43492.382243, funding_rate=0.000000, synthetic=43492.382243
+[2025-07-01 17:00:44.879] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:44.879] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:44.879] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:44.879] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2303.634817, funding_rate=0.000000, synthetic=2303.634817
+[2025-07-01 17:00:44.879] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2300.268562, funding_rate=0.000000, synthetic=2300.268562
+[2025-07-01 17:00:44.879] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2305.340610, funding_rate=0.000000, synthetic=2305.340610
+[2025-07-01 17:00:44.879] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:44.879] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:44.879] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:44.879] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:44.880] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:44.880] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:44.880] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:44.880] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 0ms
+[2025-07-01 17:00:44.880] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:45.885] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:45.885] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:45.885] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43502.838169, funding_rate=0.000000, synthetic=43502.838169
+[2025-07-01 17:00:45.885] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43501.176089, funding_rate=0.000000, synthetic=43501.176089
+[2025-07-01 17:00:45.885] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43494.968315, funding_rate=0.000000, synthetic=43494.968315
+[2025-07-01 17:00:45.885] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:45.885] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:45.885] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:45.885] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2304.831899, funding_rate=0.000000, synthetic=2304.831899
+[2025-07-01 17:00:45.885] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2292.370315, funding_rate=0.000000, synthetic=2292.370315
+[2025-07-01 17:00:45.885] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2300.456856, funding_rate=0.000000, synthetic=2300.456856
+[2025-07-01 17:00:45.886] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:45.886] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:45.886] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:45.886] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:45.886] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:45.886] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:45.886] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:45.886] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 1ms
+[2025-07-01 17:00:45.886] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:46.892] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:46.892] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:46.892] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43499.898786, funding_rate=0.000000, synthetic=43499.898786
+[2025-07-01 17:00:46.892] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43510.278006, funding_rate=0.000000, synthetic=43510.278006
+[2025-07-01 17:00:46.892] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43492.936461, funding_rate=0.000000, synthetic=43492.936461
+[2025-07-01 17:00:46.892] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:46.892] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:46.892] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:46.892] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2297.323117, funding_rate=0.000000, synthetic=2297.323117
+[2025-07-01 17:00:46.892] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2296.531709, funding_rate=0.000000, synthetic=2296.531709
+[2025-07-01 17:00:46.892] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2306.022298, funding_rate=0.000000, synthetic=2306.022298
+[2025-07-01 17:00:46.892] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:46.892] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:46.892] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:46.893] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:46.893] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:46.893] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:46.893] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:46.893] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 1ms
+[2025-07-01 17:00:46.893] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:47.897] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:47.897] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:47.897] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43508.126659, funding_rate=0.000000, synthetic=43508.126659
+[2025-07-01 17:00:47.897] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43492.801322, funding_rate=0.000000, synthetic=43492.801322
+[2025-07-01 17:00:47.897] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43509.036078, funding_rate=0.000000, synthetic=43509.036078
+[2025-07-01 17:00:47.897] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:47.897] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:47.897] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:47.897] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2293.774583, funding_rate=0.000000, synthetic=2293.774583
+[2025-07-01 17:00:47.897] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2303.710095, funding_rate=0.000000, synthetic=2303.710095
+[2025-07-01 17:00:47.897] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2291.752805, funding_rate=0.000000, synthetic=2291.752805
+[2025-07-01 17:00:47.897] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:47.897] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:47.897] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:47.897] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:47.897] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:47.897] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:47.897] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:47.897] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 0ms
+[2025-07-01 17:00:47.897] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:48.903] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:48.903] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:48.903] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43508.373886, funding_rate=0.000000, synthetic=43508.373886
+[2025-07-01 17:00:48.903] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43497.620858, funding_rate=0.000000, synthetic=43497.620858
+[2025-07-01 17:00:48.903] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43509.641536, funding_rate=0.000000, synthetic=43509.641536
+[2025-07-01 17:00:48.903] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:48.903] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:48.903] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:48.904] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2310.979707, funding_rate=0.000000, synthetic=2310.979707
+[2025-07-01 17:00:48.904] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2295.427168, funding_rate=0.000000, synthetic=2295.427168
+[2025-07-01 17:00:48.904] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2307.205224, funding_rate=0.000000, synthetic=2307.205224
+[2025-07-01 17:00:48.904] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:48.904] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:48.904] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:48.904] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:48.905] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:48.905] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:48.905] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:48.905] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 1ms
+[2025-07-01 17:00:48.905] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:49.910] [main] [debug] [thread 162521] Updated market data with 12 points
+[2025-07-01 17:00:49.910] [main] [debug] [thread 162521] Updated pricing results with 12 results
+[2025-07-01 17:00:49.910] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on binance: spot=43506.201988, funding_rate=0.000000, synthetic=43506.201988
+[2025-07-01 17:00:49.910] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on okx: spot=43506.512290, funding_rate=0.000000, synthetic=43506.512290
+[2025-07-01 17:00:49.910] [main] [debug] [thread 162521] Synthetic perpetual BTC-USDT-PERP on bybit: spot=43493.455055, funding_rate=0.000000, synthetic=43493.455055
+[2025-07-01 17:00:49.910] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on binance: spot=50000.262788, funding_rate=0.000049, synthetic=49973.386745
+[2025-07-01 17:00:49.910] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:49.910] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on bybit: spot=50001.656127, funding_rate=0.000096, synthetic=49949.183219
+[2025-07-01 17:00:49.910] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on binance: spot=2292.301951, funding_rate=0.000000, synthetic=2292.301951
+[2025-07-01 17:00:49.910] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on okx: spot=2303.571858, funding_rate=0.000000, synthetic=2303.571858
+[2025-07-01 17:00:49.910] [main] [debug] [thread 162521] Synthetic perpetual ETH-USDT-PERP on bybit: spot=2307.130051, funding_rate=0.000000, synthetic=2307.130051
+[2025-07-01 17:00:49.910] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on binance: spot=3000.734679, funding_rate=0.000080, synthetic=2998.100493
+[2025-07-01 17:00:49.910] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on okx: spot=3000.805319, funding_rate=0.000089, synthetic=2997.894612
+[2025-07-01 17:00:49.910] [main] [debug] [thread 162521] Synthetic perpetual ETHUSDT-PERP on bybit: spot=3000.602619, funding_rate=0.000115, synthetic=2996.823948
+[2025-07-01 17:00:49.910] [main] [debug] [thread 162521] Synthetic perpetual BTCUSDT-PERP on okx: spot=50001.589992, funding_rate=0.000203, synthetic=49890.394179
+[2025-07-01 17:00:49.910] [main] [debug] [thread 162521] Basis arbitrage detection not fully implemented
+[2025-07-01 17:00:49.910] [main] [debug] [thread 162521] Volatility arbitrage detection not fully implemented
+[2025-07-01 17:00:49.910] [main] [debug] [thread 162521] Statistical arbitrage detection not fully implemented
+[2025-07-01 17:00:49.910] [main] [debug] [thread 162521] Detection cycle completed: 0 opportunities found in 0ms
+[2025-07-01 17:00:49.910] [main] [debug] [thread 162521] Updated extended arbitrage opportunities with 0 opportunities
+[2025-07-01 17:00:50.911] [main] [info] [thread 162521] ArbitrageEngine stopped
+[2025-07-01 17:00:50.911] [main] [info] [thread 162489] Stopped arbitrage detection
+[2025-07-01 17:00:51.671] [main] [info] [thread 162489] HTTP Server stopping
+[2025-07-01 17:00:51.671] [main] [info] [thread 162489] Dashboard stopped
+[2025-07-01 17:00:51.671] [main] [info] [thread 162489] HTTP Server stopping
+[2025-07-01 17:00:51.671] [main] [info] [thread 162489] Dashboard stopped
+[2025-07-01 17:00:51.671] [main] [info] [thread 162489] HTTP Server stopping
