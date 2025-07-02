@@ -4,9 +4,9 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src" -I"/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/external" -I"/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/utils" -I"/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/external/nlohmann_json/include" -I"/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/external/spdlog/include"
+CXX_INCLUDES = -I"/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src" -I"/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/external" -I"/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/external/rapidjson" -I"/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/utils" -I"/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/external/nlohmann_json/include" -I"/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/external/spdlog/include"
 
-CXX_FLAGSarm64 = -std=c++20 -arch arm64 -fPIC
+CXX_FLAGSarm64 = -O3 -DNDEBUG -std=c++20 -arch arm64 -fPIC
 
-CXX_FLAGS = -std=c++20 -arch arm64 -fPIC
+CXX_FLAGS = -O3 -DNDEBUG -std=c++20 -arch arm64 -fPIC
 

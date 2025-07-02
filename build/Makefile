@@ -211,19 +211,6 @@ catch2/fast:
 .PHONY : catch2/fast
 
 #=============================================================================
-# Target rules for targets named websocketpp
-
-# Build rule for target.
-websocketpp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 websocketpp
-.PHONY : websocketpp
-
-# fast build rule for target.
-websocketpp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/websocketpp.dir/build.make CMakeFiles/websocketpp.dir/build
-.PHONY : websocketpp/fast
-
-#=============================================================================
 # Target rules for targets named xsimd
 
 # Build rule for target.
@@ -302,6 +289,97 @@ phase4_demo/fast:
 .PHONY : phase4_demo/fast
 
 #=============================================================================
+# Target rules for targets named phase5_demo
+
+# Build rule for target.
+phase5_demo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 phase5_demo
+.PHONY : phase5_demo
+
+# fast build rule for target.
+phase5_demo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase5_demo.dir/build.make CMakeFiles/phase5_demo.dir/build
+.PHONY : phase5_demo/fast
+
+#=============================================================================
+# Target rules for targets named phase6_demo
+
+# Build rule for target.
+phase6_demo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 phase6_demo
+.PHONY : phase6_demo
+
+# fast build rule for target.
+phase6_demo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase6_demo.dir/build.make CMakeFiles/phase6_demo.dir/build
+.PHONY : phase6_demo/fast
+
+#=============================================================================
+# Target rules for targets named arbitrage_performance
+
+# Build rule for target.
+arbitrage_performance: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arbitrage_performance
+.PHONY : arbitrage_performance
+
+# fast build rule for target.
+arbitrage_performance/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_performance.dir/build.make CMakeFiles/arbitrage_performance.dir/build
+.PHONY : arbitrage_performance/fast
+
+#=============================================================================
+# Target rules for targets named arbitrage_network
+
+# Build rule for target.
+arbitrage_network: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arbitrage_network
+.PHONY : arbitrage_network
+
+# fast build rule for target.
+arbitrage_network/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_network.dir/build.make CMakeFiles/arbitrage_network.dir/build
+.PHONY : arbitrage_network/fast
+
+#=============================================================================
+# Target rules for targets named arbitrage_monitoring
+
+# Build rule for target.
+arbitrage_monitoring: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arbitrage_monitoring
+.PHONY : arbitrage_monitoring
+
+# fast build rule for target.
+arbitrage_monitoring/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_monitoring.dir/build.make CMakeFiles/arbitrage_monitoring.dir/build
+.PHONY : arbitrage_monitoring/fast
+
+#=============================================================================
+# Target rules for targets named phase7_performance_demo
+
+# Build rule for target.
+phase7_performance_demo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 phase7_performance_demo
+.PHONY : phase7_performance_demo
+
+# fast build rule for target.
+phase7_performance_demo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase7_performance_demo.dir/build.make CMakeFiles/phase7_performance_demo.dir/build
+.PHONY : phase7_performance_demo/fast
+
+#=============================================================================
+# Target rules for targets named performance_benchmark
+
+# Build rule for target.
+performance_benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 performance_benchmark
+.PHONY : performance_benchmark
+
+# fast build rule for target.
+performance_benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/performance_benchmark.dir/build.make CMakeFiles/performance_benchmark.dir/build
+.PHONY : performance_benchmark/fast
+
+#=============================================================================
 # Target rules for targets named arbitrage_core
 
 # Build rule for target.
@@ -366,6 +444,78 @@ run_tests/fast:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/run_tests.dir/build.make tests/CMakeFiles/run_tests.dir/build
 .PHONY : run_tests/fast
 
+src/benchmarks/performance_benchmark.o: src/benchmarks/performance_benchmark.cpp.o
+.PHONY : src/benchmarks/performance_benchmark.o
+
+# target to build an object file
+src/benchmarks/performance_benchmark.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/performance_benchmark.dir/build.make CMakeFiles/performance_benchmark.dir/src/benchmarks/performance_benchmark.cpp.o
+.PHONY : src/benchmarks/performance_benchmark.cpp.o
+
+src/benchmarks/performance_benchmark.i: src/benchmarks/performance_benchmark.cpp.i
+.PHONY : src/benchmarks/performance_benchmark.i
+
+# target to preprocess a source file
+src/benchmarks/performance_benchmark.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/performance_benchmark.dir/build.make CMakeFiles/performance_benchmark.dir/src/benchmarks/performance_benchmark.cpp.i
+.PHONY : src/benchmarks/performance_benchmark.cpp.i
+
+src/benchmarks/performance_benchmark.s: src/benchmarks/performance_benchmark.cpp.s
+.PHONY : src/benchmarks/performance_benchmark.s
+
+# target to generate assembly for a file
+src/benchmarks/performance_benchmark.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/performance_benchmark.dir/build.make CMakeFiles/performance_benchmark.dir/src/benchmarks/performance_benchmark.cpp.s
+.PHONY : src/benchmarks/performance_benchmark.cpp.s
+
+src/core/AlgorithmOptimizer.o: src/core/AlgorithmOptimizer.cpp.o
+.PHONY : src/core/AlgorithmOptimizer.o
+
+# target to build an object file
+src/core/AlgorithmOptimizer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_performance.dir/build.make CMakeFiles/arbitrage_performance.dir/src/core/AlgorithmOptimizer.cpp.o
+.PHONY : src/core/AlgorithmOptimizer.cpp.o
+
+src/core/AlgorithmOptimizer.i: src/core/AlgorithmOptimizer.cpp.i
+.PHONY : src/core/AlgorithmOptimizer.i
+
+# target to preprocess a source file
+src/core/AlgorithmOptimizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_performance.dir/build.make CMakeFiles/arbitrage_performance.dir/src/core/AlgorithmOptimizer.cpp.i
+.PHONY : src/core/AlgorithmOptimizer.cpp.i
+
+src/core/AlgorithmOptimizer.s: src/core/AlgorithmOptimizer.cpp.s
+.PHONY : src/core/AlgorithmOptimizer.s
+
+# target to generate assembly for a file
+src/core/AlgorithmOptimizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_performance.dir/build.make CMakeFiles/arbitrage_performance.dir/src/core/AlgorithmOptimizer.cpp.s
+.PHONY : src/core/AlgorithmOptimizer.cpp.s
+
+src/core/MemoryManager.o: src/core/MemoryManager.cpp.o
+.PHONY : src/core/MemoryManager.o
+
+# target to build an object file
+src/core/MemoryManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_performance.dir/build.make CMakeFiles/arbitrage_performance.dir/src/core/MemoryManager.cpp.o
+.PHONY : src/core/MemoryManager.cpp.o
+
+src/core/MemoryManager.i: src/core/MemoryManager.cpp.i
+.PHONY : src/core/MemoryManager.i
+
+# target to preprocess a source file
+src/core/MemoryManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_performance.dir/build.make CMakeFiles/arbitrage_performance.dir/src/core/MemoryManager.cpp.i
+.PHONY : src/core/MemoryManager.cpp.i
+
+src/core/MemoryManager.s: src/core/MemoryManager.cpp.s
+.PHONY : src/core/MemoryManager.s
+
+# target to generate assembly for a file
+src/core/MemoryManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_performance.dir/build.make CMakeFiles/arbitrage_performance.dir/src/core/MemoryManager.cpp.s
+.PHONY : src/core/MemoryManager.cpp.s
+
 src/dashboard_demo.o: src/dashboard_demo.cpp.o
 .PHONY : src/dashboard_demo.o
 
@@ -413,6 +563,78 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_engine.dir/build.make CMakeFiles/arbitrage_engine.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/monitoring/SystemMonitoring.o: src/monitoring/SystemMonitoring.cpp.o
+.PHONY : src/monitoring/SystemMonitoring.o
+
+# target to build an object file
+src/monitoring/SystemMonitoring.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_monitoring.dir/build.make CMakeFiles/arbitrage_monitoring.dir/src/monitoring/SystemMonitoring.cpp.o
+.PHONY : src/monitoring/SystemMonitoring.cpp.o
+
+src/monitoring/SystemMonitoring.i: src/monitoring/SystemMonitoring.cpp.i
+.PHONY : src/monitoring/SystemMonitoring.i
+
+# target to preprocess a source file
+src/monitoring/SystemMonitoring.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_monitoring.dir/build.make CMakeFiles/arbitrage_monitoring.dir/src/monitoring/SystemMonitoring.cpp.i
+.PHONY : src/monitoring/SystemMonitoring.cpp.i
+
+src/monitoring/SystemMonitoring.s: src/monitoring/SystemMonitoring.cpp.s
+.PHONY : src/monitoring/SystemMonitoring.s
+
+# target to generate assembly for a file
+src/monitoring/SystemMonitoring.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_monitoring.dir/build.make CMakeFiles/arbitrage_monitoring.dir/src/monitoring/SystemMonitoring.cpp.s
+.PHONY : src/monitoring/SystemMonitoring.cpp.s
+
+src/network/NetworkOptimizer.o: src/network/NetworkOptimizer.cpp.o
+.PHONY : src/network/NetworkOptimizer.o
+
+# target to build an object file
+src/network/NetworkOptimizer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_network.dir/build.make CMakeFiles/arbitrage_network.dir/src/network/NetworkOptimizer.cpp.o
+.PHONY : src/network/NetworkOptimizer.cpp.o
+
+src/network/NetworkOptimizer.i: src/network/NetworkOptimizer.cpp.i
+.PHONY : src/network/NetworkOptimizer.i
+
+# target to preprocess a source file
+src/network/NetworkOptimizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_network.dir/build.make CMakeFiles/arbitrage_network.dir/src/network/NetworkOptimizer.cpp.i
+.PHONY : src/network/NetworkOptimizer.cpp.i
+
+src/network/NetworkOptimizer.s: src/network/NetworkOptimizer.cpp.s
+.PHONY : src/network/NetworkOptimizer.s
+
+# target to generate assembly for a file
+src/network/NetworkOptimizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_network.dir/build.make CMakeFiles/arbitrage_network.dir/src/network/NetworkOptimizer.cpp.s
+.PHONY : src/network/NetworkOptimizer.cpp.s
+
+src/performance/PerformanceMetrics.o: src/performance/PerformanceMetrics.cpp.o
+.PHONY : src/performance/PerformanceMetrics.o
+
+# target to build an object file
+src/performance/PerformanceMetrics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_performance.dir/build.make CMakeFiles/arbitrage_performance.dir/src/performance/PerformanceMetrics.cpp.o
+.PHONY : src/performance/PerformanceMetrics.cpp.o
+
+src/performance/PerformanceMetrics.i: src/performance/PerformanceMetrics.cpp.i
+.PHONY : src/performance/PerformanceMetrics.i
+
+# target to preprocess a source file
+src/performance/PerformanceMetrics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_performance.dir/build.make CMakeFiles/arbitrage_performance.dir/src/performance/PerformanceMetrics.cpp.i
+.PHONY : src/performance/PerformanceMetrics.cpp.i
+
+src/performance/PerformanceMetrics.s: src/performance/PerformanceMetrics.cpp.s
+.PHONY : src/performance/PerformanceMetrics.s
+
+# target to generate assembly for a file
+src/performance/PerformanceMetrics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_performance.dir/build.make CMakeFiles/arbitrage_performance.dir/src/performance/PerformanceMetrics.cpp.s
+.PHONY : src/performance/PerformanceMetrics.cpp.s
 
 src/phase2_demo.o: src/phase2_demo.cpp.o
 .PHONY : src/phase2_demo.o
@@ -486,6 +708,78 @@ src/phase4_demo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase4_demo.dir/build.make CMakeFiles/phase4_demo.dir/src/phase4_demo.cpp.s
 .PHONY : src/phase4_demo.cpp.s
 
+src/phase5_demo.o: src/phase5_demo.cpp.o
+.PHONY : src/phase5_demo.o
+
+# target to build an object file
+src/phase5_demo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase5_demo.dir/build.make CMakeFiles/phase5_demo.dir/src/phase5_demo.cpp.o
+.PHONY : src/phase5_demo.cpp.o
+
+src/phase5_demo.i: src/phase5_demo.cpp.i
+.PHONY : src/phase5_demo.i
+
+# target to preprocess a source file
+src/phase5_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase5_demo.dir/build.make CMakeFiles/phase5_demo.dir/src/phase5_demo.cpp.i
+.PHONY : src/phase5_demo.cpp.i
+
+src/phase5_demo.s: src/phase5_demo.cpp.s
+.PHONY : src/phase5_demo.s
+
+# target to generate assembly for a file
+src/phase5_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase5_demo.dir/build.make CMakeFiles/phase5_demo.dir/src/phase5_demo.cpp.s
+.PHONY : src/phase5_demo.cpp.s
+
+src/phase6_demo.o: src/phase6_demo.cpp.o
+.PHONY : src/phase6_demo.o
+
+# target to build an object file
+src/phase6_demo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase6_demo.dir/build.make CMakeFiles/phase6_demo.dir/src/phase6_demo.cpp.o
+.PHONY : src/phase6_demo.cpp.o
+
+src/phase6_demo.i: src/phase6_demo.cpp.i
+.PHONY : src/phase6_demo.i
+
+# target to preprocess a source file
+src/phase6_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase6_demo.dir/build.make CMakeFiles/phase6_demo.dir/src/phase6_demo.cpp.i
+.PHONY : src/phase6_demo.cpp.i
+
+src/phase6_demo.s: src/phase6_demo.cpp.s
+.PHONY : src/phase6_demo.s
+
+# target to generate assembly for a file
+src/phase6_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase6_demo.dir/build.make CMakeFiles/phase6_demo.dir/src/phase6_demo.cpp.s
+.PHONY : src/phase6_demo.cpp.s
+
+src/phase7_performance_demo.o: src/phase7_performance_demo.cpp.o
+.PHONY : src/phase7_performance_demo.o
+
+# target to build an object file
+src/phase7_performance_demo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase7_performance_demo.dir/build.make CMakeFiles/phase7_performance_demo.dir/src/phase7_performance_demo.cpp.o
+.PHONY : src/phase7_performance_demo.cpp.o
+
+src/phase7_performance_demo.i: src/phase7_performance_demo.cpp.i
+.PHONY : src/phase7_performance_demo.i
+
+# target to preprocess a source file
+src/phase7_performance_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase7_performance_demo.dir/build.make CMakeFiles/phase7_performance_demo.dir/src/phase7_performance_demo.cpp.i
+.PHONY : src/phase7_performance_demo.cpp.i
+
+src/phase7_performance_demo.s: src/phase7_performance_demo.cpp.s
+.PHONY : src/phase7_performance_demo.s
+
+# target to generate assembly for a file
+src/phase7_performance_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase7_performance_demo.dir/build.make CMakeFiles/phase7_performance_demo.dir/src/phase7_performance_demo.cpp.s
+.PHONY : src/phase7_performance_demo.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -502,24 +796,48 @@ help:
 	@echo "... catch2"
 	@echo "... nlohmann_json"
 	@echo "... spdlog"
-	@echo "... websocketpp"
 	@echo "... xsimd"
 	@echo "... arbitrage_core"
 	@echo "... arbitrage_data"
 	@echo "... arbitrage_engine"
+	@echo "... arbitrage_monitoring"
+	@echo "... arbitrage_network"
+	@echo "... arbitrage_performance"
 	@echo "... arbitrage_ui"
 	@echo "... arbitrage_utils"
 	@echo "... dashboard_demo"
+	@echo "... performance_benchmark"
 	@echo "... phase2_demo"
 	@echo "... phase3_demo"
 	@echo "... phase4_demo"
+	@echo "... phase5_demo"
+	@echo "... phase6_demo"
+	@echo "... phase7_performance_demo"
 	@echo "... run_tests"
+	@echo "... src/benchmarks/performance_benchmark.o"
+	@echo "... src/benchmarks/performance_benchmark.i"
+	@echo "... src/benchmarks/performance_benchmark.s"
+	@echo "... src/core/AlgorithmOptimizer.o"
+	@echo "... src/core/AlgorithmOptimizer.i"
+	@echo "... src/core/AlgorithmOptimizer.s"
+	@echo "... src/core/MemoryManager.o"
+	@echo "... src/core/MemoryManager.i"
+	@echo "... src/core/MemoryManager.s"
 	@echo "... src/dashboard_demo.o"
 	@echo "... src/dashboard_demo.i"
 	@echo "... src/dashboard_demo.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/monitoring/SystemMonitoring.o"
+	@echo "... src/monitoring/SystemMonitoring.i"
+	@echo "... src/monitoring/SystemMonitoring.s"
+	@echo "... src/network/NetworkOptimizer.o"
+	@echo "... src/network/NetworkOptimizer.i"
+	@echo "... src/network/NetworkOptimizer.s"
+	@echo "... src/performance/PerformanceMetrics.o"
+	@echo "... src/performance/PerformanceMetrics.i"
+	@echo "... src/performance/PerformanceMetrics.s"
 	@echo "... src/phase2_demo.o"
 	@echo "... src/phase2_demo.i"
 	@echo "... src/phase2_demo.s"
@@ -529,6 +847,15 @@ help:
 	@echo "... src/phase4_demo.o"
 	@echo "... src/phase4_demo.i"
 	@echo "... src/phase4_demo.s"
+	@echo "... src/phase5_demo.o"
+	@echo "... src/phase5_demo.i"
+	@echo "... src/phase5_demo.s"
+	@echo "... src/phase6_demo.o"
+	@echo "... src/phase6_demo.i"
+	@echo "... src/phase6_demo.s"
+	@echo "... src/phase7_performance_demo.o"
+	@echo "... src/phase7_performance_demo.i"
+	@echo "... src/phase7_performance_demo.s"
 .PHONY : help
 
 

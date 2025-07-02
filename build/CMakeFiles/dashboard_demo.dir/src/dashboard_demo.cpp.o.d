@@ -944,7 +944,6 @@ CMakeFiles/dashboard_demo.dir/src/dashboard_demo.cpp.o: \
   /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
   /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/string_escape.hpp \
   /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/input/position_t.hpp \
@@ -1277,11 +1276,20 @@ CMakeFiles/dashboard_demo.dir/src/dashboard_demo.cpp.o: \
   /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/spdlog/include/spdlog/details/thread_pool.h \
   /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/spdlog/include/spdlog/details/mpmc_blocking_q.h \
   /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/spdlog/include/spdlog/details/thread_pool-inl.h \
+  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/ui/../core/RiskManager.hpp \
+  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/ui/../core/PositionManager.hpp \
   /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/core/PricingEngine.hpp \
   /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/core/ArbitrageEngine.hpp \
+  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/core/RiskManager.hpp \
+  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/core/PositionManager.hpp \
   /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/core/MathUtils.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/utils/ConfigManager.hpp \
+  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/data/RealTimeDataManager.hpp \
+  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/data/BinanceClient.hpp \
+  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/data/WebSocketClient.hpp \
   /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/utils/Logger.hpp \
+  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/data/OKXClient.hpp \
+  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/data/BybitClient.hpp \
+  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/utils/ConfigManager.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/random \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h \

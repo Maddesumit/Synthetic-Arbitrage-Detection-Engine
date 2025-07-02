@@ -94,8 +94,10 @@ struct Ticker {
     std::string symbol;
     Exchange exchange;
     std::chrono::system_clock::time_point timestamp;
-    double last_price;
-    double volume_24h;
+    double bid;                         // Best bid price
+    double ask;                         // Best ask price
+    double last;                        // Last trade price
+    double volume;                      // 24h volume
     double price_change_24h;
     double price_change_percent_24h;
     double high_24h;

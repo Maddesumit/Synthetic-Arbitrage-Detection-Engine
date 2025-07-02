@@ -100,6 +100,10 @@ bin/phase3_demo: src/data/libarbitrage_data.a
 bin/phase3_demo: src/utils/libarbitrage_utils.a
 bin/phase3_demo: /opt/homebrew/Cellar/openssl@3/3.5.0/lib/libssl.dylib
 bin/phase3_demo: /opt/homebrew/Cellar/openssl@3/3.5.0/lib/libcrypto.dylib
+bin/phase3_demo: /Applications/anaconda3/lib/libboost_system.dylib
+bin/phase3_demo: /Applications/anaconda3/lib/libboost_filesystem.dylib
+bin/phase3_demo: /Applications/anaconda3/lib/libboost_atomic.dylib
+bin/phase3_demo: /Applications/anaconda3/lib/libboost_thread.dylib
 bin/phase3_demo: CMakeFiles/phase3_demo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/phase3_demo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/phase3_demo.dir/link.txt --verbose=$(VERBOSE)

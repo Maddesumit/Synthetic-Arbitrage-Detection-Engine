@@ -1,9 +1,4 @@
-[2025-07-01 16:16:21.341] [main] [info] [thread 109308] Logging system initialized successfully
-[2025-07-01 16:16:21.341] [main] [info] [thread 109308] Console level: 2, File level: 1
-[2025-07-01 16:16:21.341] [main] [info] [thread 109308] Dashboard Demo Started
-[2025-07-01 16:23:53.282] [main] [info] [thread 115091] Logging system initialized successfully
-[2025-07-01 16:23:53.282] [main] [info] [thread 115091] Console level: 2, File level: 1
-[2025-07-01 16:23:53.282] [main] [info] [thread 115091] Dashboard Demo Started
-[2025-07-01 16:25:02.920] [main] [info] [thread 117282] Logging system initialized successfully
-[2025-07-01 16:25:02.920] [main] [info] [thread 117282] Console level: 2, File level: 1
-[2025-07-01 16:25:02.920] [main] [info] [thread 117282] Dashboard Demo Started
+[2025-07-02 22:10:46.767] [main] [info] [thread 85046] Logging system initialized successfully
+[2025-07-02 22:10:46.768] [main] [info] [thread 85046] Console level: 2, File level: 1
+[2025-07-02 22:10:46.768] [main] [info] [thread 85046] Starting Phase 2 Market Data Demo
+[2025-07-02 22:10:46.768] [main] [error] [thread 85046] Demo failed with exception: Failed to load configuration from: config/config.json

@@ -98,12 +98,16 @@ bin/arbitrage_engine: CMakeFiles/arbitrage_engine.dir/build.make
 bin/arbitrage_engine: src/core/libarbitrage_core.a
 bin/arbitrage_engine: src/data/libarbitrage_data.a
 bin/arbitrage_engine: src/utils/libarbitrage_utils.a
+bin/arbitrage_engine: libarbitrage_performance.a
+bin/arbitrage_engine: libarbitrage_network.a
+bin/arbitrage_engine: libarbitrage_monitoring.a
 bin/arbitrage_engine: /Applications/anaconda3/lib/libboost_system.dylib
 bin/arbitrage_engine: /Applications/anaconda3/lib/libboost_filesystem.dylib
 bin/arbitrage_engine: /Applications/anaconda3/lib/libboost_thread.dylib
 bin/arbitrage_engine: /opt/homebrew/Cellar/openssl@3/3.5.0/lib/libssl.dylib
 bin/arbitrage_engine: /opt/homebrew/Cellar/openssl@3/3.5.0/lib/libcrypto.dylib
 bin/arbitrage_engine: /Applications/anaconda3/lib/libboost_atomic.dylib
+bin/arbitrage_engine: libarbitrage_performance.a
 bin/arbitrage_engine: CMakeFiles/arbitrage_engine.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/arbitrage_engine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/arbitrage_engine.dir/link.txt --verbose=$(VERBOSE)

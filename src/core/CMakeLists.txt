@@ -3,6 +3,12 @@ add_library(arbitrage_core
     MathUtils.cpp
     PricingEngine.cpp
     ArbitrageEngine.cpp
+    RiskManager.cpp
+    PositionManager.cpp
+    OpportunityRanker.cpp
+    ExecutionPlanner.cpp
+    PnLTracker.cpp
+    ExecutionSimulator.cpp
 )
 
 target_link_libraries(arbitrage_core 

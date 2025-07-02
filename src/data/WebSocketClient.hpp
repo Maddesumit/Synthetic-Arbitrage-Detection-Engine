@@ -8,6 +8,7 @@
 #include <vector>
 #include <atomic>
 #include <thread>
+#include <mutex>
 
 namespace arbitrage {
 namespace data {
@@ -211,11 +212,15 @@ private:
     int reconnect_initial_delay_{1000};  // 1 second
     int reconnect_max_delay_{30000};     // 30 seconds
     double reconnect_backoff_multiplier_{2.0};
+    int max_reconnect_attempts_{5};      // Maximum reconnection attempts
     
     // Reconnection state
     std::atomic<bool> reconnection_active_{false};
+    std::atomic<bool> shutdown_requested_{false};
     std::thread reconnection_thread_;
+    std::mutex reconnection_mutex_;
     int current_reconnect_delay_;
+    std::atomic<int> reconnect_attempts_{0};
 };
 
 /**

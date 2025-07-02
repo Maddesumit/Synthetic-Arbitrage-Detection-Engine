@@ -114,11 +114,56 @@ src/data/CMakeFiles/arbitrage_data.dir/BinanceClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/arbitrage_data.dir/BinanceClient.cpp.s"
 	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/data" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/data/BinanceClient.cpp" -o CMakeFiles/arbitrage_data.dir/BinanceClient.cpp.s
 
+src/data/CMakeFiles/arbitrage_data.dir/RealTimeDataManager.cpp.o: src/data/CMakeFiles/arbitrage_data.dir/flags.make
+src/data/CMakeFiles/arbitrage_data.dir/RealTimeDataManager.cpp.o: /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/data/RealTimeDataManager.cpp
+src/data/CMakeFiles/arbitrage_data.dir/RealTimeDataManager.cpp.o: src/data/CMakeFiles/arbitrage_data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/data/CMakeFiles/arbitrage_data.dir/RealTimeDataManager.cpp.o"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/data" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/data/CMakeFiles/arbitrage_data.dir/RealTimeDataManager.cpp.o -MF CMakeFiles/arbitrage_data.dir/RealTimeDataManager.cpp.o.d -o CMakeFiles/arbitrage_data.dir/RealTimeDataManager.cpp.o -c "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/data/RealTimeDataManager.cpp"
+
+src/data/CMakeFiles/arbitrage_data.dir/RealTimeDataManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/arbitrage_data.dir/RealTimeDataManager.cpp.i"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/data" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/data/RealTimeDataManager.cpp" > CMakeFiles/arbitrage_data.dir/RealTimeDataManager.cpp.i
+
+src/data/CMakeFiles/arbitrage_data.dir/RealTimeDataManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/arbitrage_data.dir/RealTimeDataManager.cpp.s"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/data" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/data/RealTimeDataManager.cpp" -o CMakeFiles/arbitrage_data.dir/RealTimeDataManager.cpp.s
+
+src/data/CMakeFiles/arbitrage_data.dir/OKXClient.cpp.o: src/data/CMakeFiles/arbitrage_data.dir/flags.make
+src/data/CMakeFiles/arbitrage_data.dir/OKXClient.cpp.o: /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/data/OKXClient.cpp
+src/data/CMakeFiles/arbitrage_data.dir/OKXClient.cpp.o: src/data/CMakeFiles/arbitrage_data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/data/CMakeFiles/arbitrage_data.dir/OKXClient.cpp.o"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/data" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/data/CMakeFiles/arbitrage_data.dir/OKXClient.cpp.o -MF CMakeFiles/arbitrage_data.dir/OKXClient.cpp.o.d -o CMakeFiles/arbitrage_data.dir/OKXClient.cpp.o -c "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/data/OKXClient.cpp"
+
+src/data/CMakeFiles/arbitrage_data.dir/OKXClient.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/arbitrage_data.dir/OKXClient.cpp.i"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/data" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/data/OKXClient.cpp" > CMakeFiles/arbitrage_data.dir/OKXClient.cpp.i
+
+src/data/CMakeFiles/arbitrage_data.dir/OKXClient.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/arbitrage_data.dir/OKXClient.cpp.s"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/data" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/data/OKXClient.cpp" -o CMakeFiles/arbitrage_data.dir/OKXClient.cpp.s
+
+src/data/CMakeFiles/arbitrage_data.dir/BybitClient.cpp.o: src/data/CMakeFiles/arbitrage_data.dir/flags.make
+src/data/CMakeFiles/arbitrage_data.dir/BybitClient.cpp.o: /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/data/BybitClient.cpp
+src/data/CMakeFiles/arbitrage_data.dir/BybitClient.cpp.o: src/data/CMakeFiles/arbitrage_data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/data/CMakeFiles/arbitrage_data.dir/BybitClient.cpp.o"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/data" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/data/CMakeFiles/arbitrage_data.dir/BybitClient.cpp.o -MF CMakeFiles/arbitrage_data.dir/BybitClient.cpp.o.d -o CMakeFiles/arbitrage_data.dir/BybitClient.cpp.o -c "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/data/BybitClient.cpp"
+
+src/data/CMakeFiles/arbitrage_data.dir/BybitClient.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/arbitrage_data.dir/BybitClient.cpp.i"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/data" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/data/BybitClient.cpp" > CMakeFiles/arbitrage_data.dir/BybitClient.cpp.i
+
+src/data/CMakeFiles/arbitrage_data.dir/BybitClient.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/arbitrage_data.dir/BybitClient.cpp.s"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/data" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/data/BybitClient.cpp" -o CMakeFiles/arbitrage_data.dir/BybitClient.cpp.s
+
 # Object files for target arbitrage_data
 arbitrage_data_OBJECTS = \
 "CMakeFiles/arbitrage_data.dir/MarketData.cpp.o" \
 "CMakeFiles/arbitrage_data.dir/WebSocketClient.cpp.o" \
-"CMakeFiles/arbitrage_data.dir/BinanceClient.cpp.o"
+"CMakeFiles/arbitrage_data.dir/BinanceClient.cpp.o" \
+"CMakeFiles/arbitrage_data.dir/RealTimeDataManager.cpp.o" \
+"CMakeFiles/arbitrage_data.dir/OKXClient.cpp.o" \
+"CMakeFiles/arbitrage_data.dir/BybitClient.cpp.o"
 
 # External object files for target arbitrage_data
 arbitrage_data_EXTERNAL_OBJECTS =
@@ -126,9 +171,12 @@ arbitrage_data_EXTERNAL_OBJECTS =
 src/data/libarbitrage_data.a: src/data/CMakeFiles/arbitrage_data.dir/MarketData.cpp.o
 src/data/libarbitrage_data.a: src/data/CMakeFiles/arbitrage_data.dir/WebSocketClient.cpp.o
 src/data/libarbitrage_data.a: src/data/CMakeFiles/arbitrage_data.dir/BinanceClient.cpp.o
+src/data/libarbitrage_data.a: src/data/CMakeFiles/arbitrage_data.dir/RealTimeDataManager.cpp.o
+src/data/libarbitrage_data.a: src/data/CMakeFiles/arbitrage_data.dir/OKXClient.cpp.o
+src/data/libarbitrage_data.a: src/data/CMakeFiles/arbitrage_data.dir/BybitClient.cpp.o
 src/data/libarbitrage_data.a: src/data/CMakeFiles/arbitrage_data.dir/build.make
 src/data/libarbitrage_data.a: src/data/CMakeFiles/arbitrage_data.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libarbitrage_data.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libarbitrage_data.a"
 	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/data" && $(CMAKE_COMMAND) -P CMakeFiles/arbitrage_data.dir/cmake_clean_target.cmake
 	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/data" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/arbitrage_data.dir/link.txt --verbose=$(VERBOSE)
 

@@ -71,8 +71,8 @@ int main() {
         
         // Create sample ticker
         data::Ticker sample_ticker("BTCUSDT", data::Exchange::BINANCE);
-        sample_ticker.last_price = 50000.60;
-        sample_ticker.volume_24h = 1250.75;
+        sample_ticker.last = 50000.60;
+        sample_ticker.volume = 1250.75;
         sample_ticker.price_change_24h = 1.5;
         sample_ticker.price_change_percent_24h = 0.003;
         sample_ticker.high_24h = 51200.00;
@@ -81,8 +81,8 @@ int main() {
         btc_data.updateTicker(data::Exchange::BINANCE, sample_ticker);
         
         LOG_INFO("Sample Ticker created:");
-        LOG_INFO("  Last Price: ${:.2f}", sample_ticker.last_price);
-        LOG_INFO("  24h Volume: {:.2f}", sample_ticker.volume_24h);
+        LOG_INFO("  Last Price: ${:.2f}", sample_ticker.last);
+        LOG_INFO("  24h Volume: {:.2f}", sample_ticker.volume);
         LOG_INFO("  24h Change: {:.2f}%", sample_ticker.price_change_percent_24h * 100);
         LOG_INFO("  24h High: ${:.2f}", sample_ticker.high_24h);
         LOG_INFO("  24h Low: ${:.2f}", sample_ticker.low_24h);

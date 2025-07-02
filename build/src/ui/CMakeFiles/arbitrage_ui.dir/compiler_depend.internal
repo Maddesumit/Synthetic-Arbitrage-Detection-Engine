@@ -13,7 +13,6 @@ src/ui/CMakeFiles/arbitrage_ui.dir/DashboardApp.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__xlocale.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_abort.h
- /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h
@@ -1309,9 +1308,12 @@ src/ui/CMakeFiles/arbitrage_ui.dir/DashboardApp.cpp.o
  /Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/utils/Logger.hpp
  /Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/ArbitrageEngine.hpp
  /Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/MathUtils.hpp
+ /Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/PositionManager.hpp
  /Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/PricingEngine.hpp
+ /Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/RiskManager.hpp
  /Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/data/MarketData.hpp
  /Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/utils/Logger.hpp
+ /Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/utils/StringUtils.hpp
  /Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/ui/DashboardApp.hpp
  /Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/ui/DataExporter.hpp
  /Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/ui/HttpServer.hpp
@@ -1328,7 +1330,6 @@ src/ui/CMakeFiles/arbitrage_ui.dir/DataExporter.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__xlocale.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_abort.h
- /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h
@@ -2604,7 +2605,6 @@ src/ui/CMakeFiles/arbitrage_ui.dir/HttpServer.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__xlocale.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_abort.h
- /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h

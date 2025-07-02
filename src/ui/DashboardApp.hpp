@@ -4,6 +4,8 @@
 #include "DataExporter.hpp"
 #include "../core/PricingEngine.hpp"
 #include "../core/ArbitrageEngine.hpp"
+#include "../core/RiskManager.hpp"
+#include "../core/PositionManager.hpp"
 #include "../data/MarketData.hpp"
 #include <memory>
 #include <thread>
@@ -30,6 +32,12 @@ public:
      * @brief Initialize the dashboard with arbitrage engine
      */
     void initializeArbitrageEngine(std::shared_ptr<core::ArbitrageEngine> arbitrage_engine);
+
+    /**
+     * @brief Initialize the dashboard with risk management components
+     */
+    void initializeRiskManagement(std::shared_ptr<ArbitrageEngine::RiskManager> risk_manager,
+                                  std::shared_ptr<ArbitrageEngine::PositionManager> position_manager);
 
     /**
      * @brief Start the dashboard server
@@ -72,6 +80,16 @@ public:
     void updateExtendedArbitrageOpportunities(const std::vector<core::ArbitrageOpportunityExtended>& opportunities);
 
     /**
+     * @brief Update positions for display
+     */
+    void updatePositions(const std::vector<ArbitrageEngine::Position>& positions);
+
+    /**
+     * @brief Update risk metrics for display
+     */
+    void updateRiskMetrics(const ArbitrageEngine::RiskMetrics& metrics);
+
+    /**
      * @brief Start arbitrage detection
      */
     void startArbitrageDetection();
@@ -96,6 +114,8 @@ private:
     std::unique_ptr<DataExporter> data_exporter_;
     std::shared_ptr<core::PricingEngine> pricing_engine_;
     std::shared_ptr<core::ArbitrageEngine> arbitrage_engine_;
+    std::shared_ptr<ArbitrageEngine::RiskManager> risk_manager_;
+    std::shared_ptr<ArbitrageEngine::PositionManager> position_manager_;
     
     int port_;
     std::atomic<bool> running_;
@@ -109,6 +129,9 @@ private:
     std::vector<core::PricingResult> latest_pricing_results_;
     std::vector<core::ArbitrageOpportunity> latest_opportunities_;
     std::vector<core::ArbitrageOpportunityExtended> latest_extended_opportunities_;
+    std::vector<ArbitrageEngine::Position> latest_positions_;
+    ArbitrageEngine::RiskMetrics latest_risk_metrics_;
+    std::chrono::system_clock::time_point last_update_time_;
     
     void setupRoutes();
     void runUpdateLoop();
@@ -127,7 +150,16 @@ private:
     HttpResponse handleApiArbitrageControl(const HttpRequest& request);
     HttpResponse handleApiPerformance(const HttpRequest& request);
     HttpResponse handleApiRisk(const HttpRequest& request);
+    HttpResponse handleApiPositions(const HttpRequest& request);
+    HttpResponse handleApiRiskMetrics(const HttpRequest& request);
+    HttpResponse handleApiRiskAlerts(const HttpRequest& request);
     HttpResponse handleStaticFiles(const HttpRequest& request);
+    
+    // New advanced API handlers
+    HttpResponse handleApiOrderBook(const HttpRequest& request);
+    HttpResponse handleApiConnectionStatus(const HttpRequest& request);
+    HttpResponse handleApiPortfolioMetrics(const HttpRequest& request);
+    HttpResponse handleApiAdvancedRisk(const HttpRequest& request);
     
     // Utility methods
     HttpResponse createJsonResponse(const nlohmann::json& data) const;

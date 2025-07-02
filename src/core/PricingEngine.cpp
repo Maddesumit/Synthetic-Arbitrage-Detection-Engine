@@ -293,7 +293,7 @@ double PricingEngine::getUnderlyingPrice(const std::string& symbol, const data::
     // 3. Try ticker last price
     for (const auto& [exchange, ticker] : market_data.tickers) {
         if (ticker.symbol == symbol) {
-            return ticker.last_price;
+            return ticker.last;
         }
     }
     

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libarbitrage_network.a CMakeFiles/arbitrage_network.dir/src/network/NetworkOptimizer.cpp.o
+/usr/bin/ranlib libarbitrage_network.a

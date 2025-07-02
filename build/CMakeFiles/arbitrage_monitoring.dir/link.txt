@@ -1,0 +1,2 @@
+/usr/bin/ar qc libarbitrage_monitoring.a CMakeFiles/arbitrage_monitoring.dir/src/monitoring/SystemMonitoring.cpp.o
+/usr/bin/ranlib libarbitrage_monitoring.a

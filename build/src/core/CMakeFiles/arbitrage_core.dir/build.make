@@ -114,11 +114,101 @@ src/core/CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.s"
 	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/ArbitrageEngine.cpp" -o CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.s
 
+src/core/CMakeFiles/arbitrage_core.dir/RiskManager.cpp.o: src/core/CMakeFiles/arbitrage_core.dir/flags.make
+src/core/CMakeFiles/arbitrage_core.dir/RiskManager.cpp.o: /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/core/RiskManager.cpp
+src/core/CMakeFiles/arbitrage_core.dir/RiskManager.cpp.o: src/core/CMakeFiles/arbitrage_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/core/CMakeFiles/arbitrage_core.dir/RiskManager.cpp.o"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/core/CMakeFiles/arbitrage_core.dir/RiskManager.cpp.o -MF CMakeFiles/arbitrage_core.dir/RiskManager.cpp.o.d -o CMakeFiles/arbitrage_core.dir/RiskManager.cpp.o -c "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/RiskManager.cpp"
+
+src/core/CMakeFiles/arbitrage_core.dir/RiskManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/arbitrage_core.dir/RiskManager.cpp.i"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/RiskManager.cpp" > CMakeFiles/arbitrage_core.dir/RiskManager.cpp.i
+
+src/core/CMakeFiles/arbitrage_core.dir/RiskManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/arbitrage_core.dir/RiskManager.cpp.s"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/RiskManager.cpp" -o CMakeFiles/arbitrage_core.dir/RiskManager.cpp.s
+
+src/core/CMakeFiles/arbitrage_core.dir/PositionManager.cpp.o: src/core/CMakeFiles/arbitrage_core.dir/flags.make
+src/core/CMakeFiles/arbitrage_core.dir/PositionManager.cpp.o: /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/core/PositionManager.cpp
+src/core/CMakeFiles/arbitrage_core.dir/PositionManager.cpp.o: src/core/CMakeFiles/arbitrage_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/core/CMakeFiles/arbitrage_core.dir/PositionManager.cpp.o"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/core/CMakeFiles/arbitrage_core.dir/PositionManager.cpp.o -MF CMakeFiles/arbitrage_core.dir/PositionManager.cpp.o.d -o CMakeFiles/arbitrage_core.dir/PositionManager.cpp.o -c "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/PositionManager.cpp"
+
+src/core/CMakeFiles/arbitrage_core.dir/PositionManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/arbitrage_core.dir/PositionManager.cpp.i"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/PositionManager.cpp" > CMakeFiles/arbitrage_core.dir/PositionManager.cpp.i
+
+src/core/CMakeFiles/arbitrage_core.dir/PositionManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/arbitrage_core.dir/PositionManager.cpp.s"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/PositionManager.cpp" -o CMakeFiles/arbitrage_core.dir/PositionManager.cpp.s
+
+src/core/CMakeFiles/arbitrage_core.dir/OpportunityRanker.cpp.o: src/core/CMakeFiles/arbitrage_core.dir/flags.make
+src/core/CMakeFiles/arbitrage_core.dir/OpportunityRanker.cpp.o: /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/core/OpportunityRanker.cpp
+src/core/CMakeFiles/arbitrage_core.dir/OpportunityRanker.cpp.o: src/core/CMakeFiles/arbitrage_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/core/CMakeFiles/arbitrage_core.dir/OpportunityRanker.cpp.o"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/core/CMakeFiles/arbitrage_core.dir/OpportunityRanker.cpp.o -MF CMakeFiles/arbitrage_core.dir/OpportunityRanker.cpp.o.d -o CMakeFiles/arbitrage_core.dir/OpportunityRanker.cpp.o -c "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/OpportunityRanker.cpp"
+
+src/core/CMakeFiles/arbitrage_core.dir/OpportunityRanker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/arbitrage_core.dir/OpportunityRanker.cpp.i"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/OpportunityRanker.cpp" > CMakeFiles/arbitrage_core.dir/OpportunityRanker.cpp.i
+
+src/core/CMakeFiles/arbitrage_core.dir/OpportunityRanker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/arbitrage_core.dir/OpportunityRanker.cpp.s"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/OpportunityRanker.cpp" -o CMakeFiles/arbitrage_core.dir/OpportunityRanker.cpp.s
+
+src/core/CMakeFiles/arbitrage_core.dir/ExecutionPlanner.cpp.o: src/core/CMakeFiles/arbitrage_core.dir/flags.make
+src/core/CMakeFiles/arbitrage_core.dir/ExecutionPlanner.cpp.o: /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/core/ExecutionPlanner.cpp
+src/core/CMakeFiles/arbitrage_core.dir/ExecutionPlanner.cpp.o: src/core/CMakeFiles/arbitrage_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/core/CMakeFiles/arbitrage_core.dir/ExecutionPlanner.cpp.o"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/core/CMakeFiles/arbitrage_core.dir/ExecutionPlanner.cpp.o -MF CMakeFiles/arbitrage_core.dir/ExecutionPlanner.cpp.o.d -o CMakeFiles/arbitrage_core.dir/ExecutionPlanner.cpp.o -c "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/ExecutionPlanner.cpp"
+
+src/core/CMakeFiles/arbitrage_core.dir/ExecutionPlanner.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/arbitrage_core.dir/ExecutionPlanner.cpp.i"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/ExecutionPlanner.cpp" > CMakeFiles/arbitrage_core.dir/ExecutionPlanner.cpp.i
+
+src/core/CMakeFiles/arbitrage_core.dir/ExecutionPlanner.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/arbitrage_core.dir/ExecutionPlanner.cpp.s"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/ExecutionPlanner.cpp" -o CMakeFiles/arbitrage_core.dir/ExecutionPlanner.cpp.s
+
+src/core/CMakeFiles/arbitrage_core.dir/PnLTracker.cpp.o: src/core/CMakeFiles/arbitrage_core.dir/flags.make
+src/core/CMakeFiles/arbitrage_core.dir/PnLTracker.cpp.o: /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/core/PnLTracker.cpp
+src/core/CMakeFiles/arbitrage_core.dir/PnLTracker.cpp.o: src/core/CMakeFiles/arbitrage_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/core/CMakeFiles/arbitrage_core.dir/PnLTracker.cpp.o"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/core/CMakeFiles/arbitrage_core.dir/PnLTracker.cpp.o -MF CMakeFiles/arbitrage_core.dir/PnLTracker.cpp.o.d -o CMakeFiles/arbitrage_core.dir/PnLTracker.cpp.o -c "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/PnLTracker.cpp"
+
+src/core/CMakeFiles/arbitrage_core.dir/PnLTracker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/arbitrage_core.dir/PnLTracker.cpp.i"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/PnLTracker.cpp" > CMakeFiles/arbitrage_core.dir/PnLTracker.cpp.i
+
+src/core/CMakeFiles/arbitrage_core.dir/PnLTracker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/arbitrage_core.dir/PnLTracker.cpp.s"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/PnLTracker.cpp" -o CMakeFiles/arbitrage_core.dir/PnLTracker.cpp.s
+
+src/core/CMakeFiles/arbitrage_core.dir/ExecutionSimulator.cpp.o: src/core/CMakeFiles/arbitrage_core.dir/flags.make
+src/core/CMakeFiles/arbitrage_core.dir/ExecutionSimulator.cpp.o: /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/core/ExecutionSimulator.cpp
+src/core/CMakeFiles/arbitrage_core.dir/ExecutionSimulator.cpp.o: src/core/CMakeFiles/arbitrage_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/core/CMakeFiles/arbitrage_core.dir/ExecutionSimulator.cpp.o"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/core/CMakeFiles/arbitrage_core.dir/ExecutionSimulator.cpp.o -MF CMakeFiles/arbitrage_core.dir/ExecutionSimulator.cpp.o.d -o CMakeFiles/arbitrage_core.dir/ExecutionSimulator.cpp.o -c "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/ExecutionSimulator.cpp"
+
+src/core/CMakeFiles/arbitrage_core.dir/ExecutionSimulator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/arbitrage_core.dir/ExecutionSimulator.cpp.i"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/ExecutionSimulator.cpp" > CMakeFiles/arbitrage_core.dir/ExecutionSimulator.cpp.i
+
+src/core/CMakeFiles/arbitrage_core.dir/ExecutionSimulator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/arbitrage_core.dir/ExecutionSimulator.cpp.s"
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/core/ExecutionSimulator.cpp" -o CMakeFiles/arbitrage_core.dir/ExecutionSimulator.cpp.s
+
 # Object files for target arbitrage_core
 arbitrage_core_OBJECTS = \
 "CMakeFiles/arbitrage_core.dir/MathUtils.cpp.o" \
 "CMakeFiles/arbitrage_core.dir/PricingEngine.cpp.o" \
-"CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.o"
+"CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.o" \
+"CMakeFiles/arbitrage_core.dir/RiskManager.cpp.o" \
+"CMakeFiles/arbitrage_core.dir/PositionManager.cpp.o" \
+"CMakeFiles/arbitrage_core.dir/OpportunityRanker.cpp.o" \
+"CMakeFiles/arbitrage_core.dir/ExecutionPlanner.cpp.o" \
+"CMakeFiles/arbitrage_core.dir/PnLTracker.cpp.o" \
+"CMakeFiles/arbitrage_core.dir/ExecutionSimulator.cpp.o"
 
 # External object files for target arbitrage_core
 arbitrage_core_EXTERNAL_OBJECTS =
@@ -126,9 +216,15 @@ arbitrage_core_EXTERNAL_OBJECTS =
 src/core/libarbitrage_core.a: src/core/CMakeFiles/arbitrage_core.dir/MathUtils.cpp.o
 src/core/libarbitrage_core.a: src/core/CMakeFiles/arbitrage_core.dir/PricingEngine.cpp.o
 src/core/libarbitrage_core.a: src/core/CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.o
+src/core/libarbitrage_core.a: src/core/CMakeFiles/arbitrage_core.dir/RiskManager.cpp.o
+src/core/libarbitrage_core.a: src/core/CMakeFiles/arbitrage_core.dir/PositionManager.cpp.o
+src/core/libarbitrage_core.a: src/core/CMakeFiles/arbitrage_core.dir/OpportunityRanker.cpp.o
+src/core/libarbitrage_core.a: src/core/CMakeFiles/arbitrage_core.dir/ExecutionPlanner.cpp.o
+src/core/libarbitrage_core.a: src/core/CMakeFiles/arbitrage_core.dir/PnLTracker.cpp.o
+src/core/libarbitrage_core.a: src/core/CMakeFiles/arbitrage_core.dir/ExecutionSimulator.cpp.o
 src/core/libarbitrage_core.a: src/core/CMakeFiles/arbitrage_core.dir/build.make
 src/core/libarbitrage_core.a: src/core/CMakeFiles/arbitrage_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libarbitrage_core.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library libarbitrage_core.a"
 	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core" && $(CMAKE_COMMAND) -P CMakeFiles/arbitrage_core.dir/cmake_clean_target.cmake
 	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build/src/core" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/arbitrage_core.dir/link.txt --verbose=$(VERBOSE)
 

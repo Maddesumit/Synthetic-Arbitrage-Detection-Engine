@@ -1,2 +1,2 @@
-/usr/bin/ar qc libarbitrage_core.a CMakeFiles/arbitrage_core.dir/MathUtils.cpp.o CMakeFiles/arbitrage_core.dir/PricingEngine.cpp.o CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.o
+/usr/bin/ar qc libarbitrage_core.a CMakeFiles/arbitrage_core.dir/MathUtils.cpp.o CMakeFiles/arbitrage_core.dir/PricingEngine.cpp.o CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.o CMakeFiles/arbitrage_core.dir/RiskManager.cpp.o CMakeFiles/arbitrage_core.dir/PositionManager.cpp.o CMakeFiles/arbitrage_core.dir/OpportunityRanker.cpp.o CMakeFiles/arbitrage_core.dir/ExecutionPlanner.cpp.o CMakeFiles/arbitrage_core.dir/PnLTracker.cpp.o CMakeFiles/arbitrage_core.dir/ExecutionSimulator.cpp.o
 /usr/bin/ranlib libarbitrage_core.a

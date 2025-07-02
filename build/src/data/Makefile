@@ -209,6 +209,30 @@ BinanceClient.cpp.s:
 	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/data/CMakeFiles/arbitrage_data.dir/build.make src/data/CMakeFiles/arbitrage_data.dir/BinanceClient.cpp.s
 .PHONY : BinanceClient.cpp.s
 
+BybitClient.o: BybitClient.cpp.o
+.PHONY : BybitClient.o
+
+# target to build an object file
+BybitClient.cpp.o:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/data/CMakeFiles/arbitrage_data.dir/build.make src/data/CMakeFiles/arbitrage_data.dir/BybitClient.cpp.o
+.PHONY : BybitClient.cpp.o
+
+BybitClient.i: BybitClient.cpp.i
+.PHONY : BybitClient.i
+
+# target to preprocess a source file
+BybitClient.cpp.i:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/data/CMakeFiles/arbitrage_data.dir/build.make src/data/CMakeFiles/arbitrage_data.dir/BybitClient.cpp.i
+.PHONY : BybitClient.cpp.i
+
+BybitClient.s: BybitClient.cpp.s
+.PHONY : BybitClient.s
+
+# target to generate assembly for a file
+BybitClient.cpp.s:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/data/CMakeFiles/arbitrage_data.dir/build.make src/data/CMakeFiles/arbitrage_data.dir/BybitClient.cpp.s
+.PHONY : BybitClient.cpp.s
+
 MarketData.o: MarketData.cpp.o
 .PHONY : MarketData.o
 
@@ -232,6 +256,54 @@ MarketData.s: MarketData.cpp.s
 MarketData.cpp.s:
 	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/data/CMakeFiles/arbitrage_data.dir/build.make src/data/CMakeFiles/arbitrage_data.dir/MarketData.cpp.s
 .PHONY : MarketData.cpp.s
+
+OKXClient.o: OKXClient.cpp.o
+.PHONY : OKXClient.o
+
+# target to build an object file
+OKXClient.cpp.o:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/data/CMakeFiles/arbitrage_data.dir/build.make src/data/CMakeFiles/arbitrage_data.dir/OKXClient.cpp.o
+.PHONY : OKXClient.cpp.o
+
+OKXClient.i: OKXClient.cpp.i
+.PHONY : OKXClient.i
+
+# target to preprocess a source file
+OKXClient.cpp.i:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/data/CMakeFiles/arbitrage_data.dir/build.make src/data/CMakeFiles/arbitrage_data.dir/OKXClient.cpp.i
+.PHONY : OKXClient.cpp.i
+
+OKXClient.s: OKXClient.cpp.s
+.PHONY : OKXClient.s
+
+# target to generate assembly for a file
+OKXClient.cpp.s:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/data/CMakeFiles/arbitrage_data.dir/build.make src/data/CMakeFiles/arbitrage_data.dir/OKXClient.cpp.s
+.PHONY : OKXClient.cpp.s
+
+RealTimeDataManager.o: RealTimeDataManager.cpp.o
+.PHONY : RealTimeDataManager.o
+
+# target to build an object file
+RealTimeDataManager.cpp.o:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/data/CMakeFiles/arbitrage_data.dir/build.make src/data/CMakeFiles/arbitrage_data.dir/RealTimeDataManager.cpp.o
+.PHONY : RealTimeDataManager.cpp.o
+
+RealTimeDataManager.i: RealTimeDataManager.cpp.i
+.PHONY : RealTimeDataManager.i
+
+# target to preprocess a source file
+RealTimeDataManager.cpp.i:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/data/CMakeFiles/arbitrage_data.dir/build.make src/data/CMakeFiles/arbitrage_data.dir/RealTimeDataManager.cpp.i
+.PHONY : RealTimeDataManager.cpp.i
+
+RealTimeDataManager.s: RealTimeDataManager.cpp.s
+.PHONY : RealTimeDataManager.s
+
+# target to generate assembly for a file
+RealTimeDataManager.cpp.s:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/data/CMakeFiles/arbitrage_data.dir/build.make src/data/CMakeFiles/arbitrage_data.dir/RealTimeDataManager.cpp.s
+.PHONY : RealTimeDataManager.cpp.s
 
 WebSocketClient.o: WebSocketClient.cpp.o
 .PHONY : WebSocketClient.o
@@ -274,9 +346,18 @@ help:
 	@echo "... BinanceClient.o"
 	@echo "... BinanceClient.i"
 	@echo "... BinanceClient.s"
+	@echo "... BybitClient.o"
+	@echo "... BybitClient.i"
+	@echo "... BybitClient.s"
 	@echo "... MarketData.o"
 	@echo "... MarketData.i"
 	@echo "... MarketData.s"
+	@echo "... OKXClient.o"
+	@echo "... OKXClient.i"
+	@echo "... OKXClient.s"
+	@echo "... RealTimeDataManager.o"
+	@echo "... RealTimeDataManager.i"
+	@echo "... RealTimeDataManager.s"
 	@echo "... WebSocketClient.o"
 	@echo "... WebSocketClient.i"
 	@echo "... WebSocketClient.s"

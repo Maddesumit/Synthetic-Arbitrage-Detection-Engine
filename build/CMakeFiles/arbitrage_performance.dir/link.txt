@@ -1,0 +1,2 @@
+/usr/bin/ar qc libarbitrage_performance.a CMakeFiles/arbitrage_performance.dir/src/performance/PerformanceMetrics.cpp.o CMakeFiles/arbitrage_performance.dir/src/core/MemoryManager.cpp.o CMakeFiles/arbitrage_performance.dir/src/core/AlgorithmOptimizer.cpp.o
+/usr/bin/ranlib libarbitrage_performance.a

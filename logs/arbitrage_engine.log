@@ -6189,3 +6189,376 @@
 [2025-07-01 16:24:39.065] [main] [info] [thread 11403] HTTP Server stopping
 [2025-07-01 16:24:39.065] [main] [info] [thread 11403] Dashboard stopped
 [2025-07-01 16:24:39.065] [main] [info] [thread 11403] HTTP Server stopping
+[2025-07-01 18:47:33.803] [main] [info] [thread 34347] Logging system initialized successfully
+[2025-07-01 18:47:33.803] [main] [info] [thread 34347] Console level: 2, File level: 1
+[2025-07-01 18:47:33.803] [main] [info] [thread 34347] === Phase 5 Demo: Advanced Risk Management & Position Tracking ===
+[2025-07-01 18:47:33.803] [main] [info] [thread 34347] 
+--- Step 1: Initialize Risk Management System ---
+[2025-07-01 18:47:33.803] [main] [info] [thread 34347] RiskManager initialized with limits: MaxVaR=50000, MaxLeverage=3
+[2025-07-01 18:47:33.803] [main] [info] [thread 34347] RiskManager initialized successfully
+[2025-07-01 18:47:33.803] [main] [info] [thread 34347] Risk Manager initialized with limits:
+[2025-07-01 18:47:33.803] [main] [info] [thread 34347]   - Max VaR: $50000
+[2025-07-01 18:47:33.803] [main] [info] [thread 34347]   - Max Leverage: 3.0x
+[2025-07-01 18:47:33.803] [main] [info] [thread 34347]   - Max Concentration: 30%
+[2025-07-01 18:47:33.803] [main] [info] [thread 34347] 
+--- Step 2: Initialize Position Management System ---
+[2025-07-01 18:47:33.803] [main] [info] [thread 34347] PositionManager initialized with sizing method: 2
+[2025-07-01 18:47:33.803] [main] [info] [thread 34347] PositionManager initialized with capital: $1000000.00
+[2025-07-01 18:47:33.804] [main] [info] [thread 34347] Allocated $400000.00 to strategy: arbitrage
+[2025-07-01 18:47:33.804] [main] [info] [thread 34347] Allocated $300000.00 to strategy: statistical
+[2025-07-01 18:47:33.804] [main] [info] [thread 34347] Allocated $200000.00 to strategy: volatility
+[2025-07-01 18:47:33.804] [main] [info] [thread 34347] Position Manager initialized with capital: $1000000
+[2025-07-01 18:47:33.804] [main] [info] [thread 34347] Capital allocated to strategies:
+[2025-07-01 18:47:33.804] [main] [info] [thread 34347]   - Arbitrage: $400,000
+[2025-07-01 18:47:33.804] [main] [info] [thread 34347]   - Statistical: $300,000
+[2025-07-01 18:47:33.804] [main] [info] [thread 34347]   - Volatility: $200,000
+[2025-07-01 18:47:33.804] [main] [info] [thread 34347]   - Reserve: $100,000
+[2025-07-01 18:47:33.804] [main] [info] [thread 34347] 
+--- Step 3: Demonstrate Position Sizing Algorithms ---
+[2025-07-01 18:47:33.804] [main] [warning] [thread 34347] Position would exceed concentration limit
+[2025-07-01 18:47:33.804] [main] [warning] [thread 34347] Position failed risk checks: BTC/binance
+[2025-07-01 18:47:33.804] [main] [warning] [thread 34347] Position would exceed concentration limit
+[2025-07-01 18:47:33.804] [main] [warning] [thread 34347] Position failed risk checks: ETH/okx
+[2025-07-01 18:47:33.804] [main] [warning] [thread 34347] Position would exceed concentration limit
+[2025-07-01 18:47:33.804] [main] [warning] [thread 34347] Position failed risk checks: SOL/bybit
+[2025-07-01 18:47:33.804] [main] [info] [thread 34347] 
+--- Step 4: Simulate Trading Activity ---
+[2025-07-01 18:47:33.804] [main] [info] [thread 34347] Added position: BTC_BINANCE_001 BTC binance size=2.5
+[2025-07-01 18:47:33.804] [main] [info] [thread 34347] Position Event: Position opened [BTC_BINANCE_001]
+[2025-07-01 18:47:33.804] [main] [info] [thread 34347] Opened position: BTC binance 2.5 @ $45000.00
+[2025-07-01 18:47:33.804] [main] [info] [thread 34347] Added position: ETH_OKX_002 ETH okx size=-40
+[2025-07-01 18:47:33.804] [main] [info] [thread 34347] Position Event: Position opened [ETH_OKX_002]
+[2025-07-01 18:47:33.804] [main] [info] [thread 34347] Opened position: ETH okx -40.0 @ $3200.00
+[2025-07-01 18:47:33.804] [main] [info] [thread 34347] Added position: SOL_SYNTH_003 SOL bybit size=500
+[2025-07-01 18:47:33.804] [main] [info] [thread 34347] Position Event: Position opened [SOL_SYNTH_003]
+[2025-07-01 18:47:33.804] [main] [info] [thread 34347] Opened position: SOL bybit 500.0 @ $180.00
+[2025-07-01 18:47:33.804] [main] [info] [thread 34347] Market data updated for all positions
+[2025-07-01 18:47:33.804] [main] [info] [thread 34347] 
+--- Step 5: Demonstrate Risk Monitoring ---
+[2025-07-01 18:47:33.804] [main] [info] [thread 34347] Started real-time risk monitoring
+[2025-07-01 18:47:33.856] [main] [info] [thread 34347] Current Risk Metrics:
+[2025-07-01 18:47:33.856] [main] [info] [thread 34347]   Portfolio VaR (95%): $3293.38
+[2025-07-01 18:47:33.856] [main] [info] [thread 34347]   Expected Shortfall: $3998.32
+[2025-07-01 18:47:33.856] [main] [info] [thread 34347]   Total Exposure: $334750.00
+[2025-07-01 18:47:33.856] [main] [info] [thread 34347]   Leveraged Exposure: $490250.00
+[2025-07-01 18:47:33.856] [main] [info] [thread 34347]   Concentration Risk: 37.6%
+[2025-07-01 18:47:33.856] [main] [info] [thread 34347]   Correlation Risk: 50.0%
+[2025-07-01 18:47:33.856] [main] [info] [thread 34347]   Liquidity Risk: 98.4%
+[2025-07-01 18:47:33.856] [main] [info] [thread 34347]   Funding Rate Risk: 27.6%
+[2025-07-01 18:47:33.856] [main] [info] [thread 34347] 
+Portfolio P&L:
+[2025-07-01 18:47:33.856] [main] [info] [thread 34347]   Realized P&L: $0.00
+[2025-07-01 18:47:33.856] [main] [info] [thread 34347]   Unrealized P&L: $8250.00
+[2025-07-01 18:47:33.856] [main] [info] [thread 34347]   Total P&L: $8250.00
+[2025-07-01 18:47:33.856] [main] [info] [thread 34347]   Funding P&L: $0.00
+[2025-07-01 18:47:33.927] [main] [warning] [thread 34382] RISK ALERT [WARNING]: Portfolio concentration too high (Current: 0.38, Limit: 0.30)
+[2025-07-01 18:47:33.927] [main] [info] [thread 34382] Risk Event: Risk alert generated: Portfolio concentration too high
+[2025-07-01 18:47:33.927] [main] [warning] [thread 34382] RISK ALERT [WARNING]: Low liquidity detected in portfolio (Current: 0.98, Limit: 0.20)
+[2025-07-01 18:47:33.927] [main] [info] [thread 34382] Risk Event: Risk alert generated: Low liquidity detected in portfolio
+[2025-07-01 18:47:35.861] [main] [info] [thread 34347] 
+--- Step 6: Test Risk Limits and Alerts ---
+[2025-07-01 18:47:35.861] [main] [info] [thread 34347] Attempting to open large position: BTC 50.0 @ $46000 ($2300000 notional, 5.0x leverage)
+[2025-07-01 18:47:35.861] [main] [error] [thread 34347] Insufficient capital for position: LARGE_POSITION_004 (required: 460000.00)
+[2025-07-01 18:47:35.861] [main] [info] [thread 34347] Large position rejected due to risk limits - GOOD!
+[2025-07-01 18:47:35.861] [main] [info] [thread 34347] Active risk alerts: 2
+[2025-07-01 18:47:35.861] [main] [info] [thread 34347]   - [WARNING] Portfolio concentration too high
+[2025-07-01 18:47:35.861] [main] [info] [thread 34347]   - [WARNING] Low liquidity detected in portfolio
+[2025-07-01 18:47:35.861] [main] [info] [thread 34347] Added position: LARGE_POSITION_004 BTC binance size=50
+[2025-07-01 18:47:35.934] [main] [info] [thread 34347] Risk limit check generated 2 alerts
+[2025-07-01 18:47:38.935] [main] [info] [thread 34347] 
+--- Step 7: Demonstrate Portfolio Analytics ---
+[2025-07-01 18:47:38.935] [main] [info] [thread 34347] Portfolio volatility: 0.0%
+[2025-07-01 18:47:38.935] [main] [info] [thread 34347] 
+Capital Allocation:
+[2025-07-01 18:47:38.935] [main] [info] [thread 34347]   Total Capital: $1000000
+[2025-07-01 18:47:38.935] [main] [info] [thread 34347]   Allocated Capital: $246500
+[2025-07-01 18:47:38.935] [main] [info] [thread 34347]   Available Capital: $-146500
+[2025-07-01 18:47:38.935] [main] [info] [thread 34347]   Used Margin: $0
+[2025-07-01 18:47:38.935] [main] [info] [thread 34347]   Strategy Allocations:
+[2025-07-01 18:47:38.935] [main] [info] [thread 34347]     arbitrage: $400000
+[2025-07-01 18:47:38.935] [main] [info] [thread 34347]     statistical: $300000
+[2025-07-01 18:47:38.935] [main] [info] [thread 34347]     volatility: $200000
+[2025-07-01 18:47:38.935] [main] [info] [thread 34347] 
+Simulating market price movements...
+[2025-07-01 18:47:39.067] [main] [warning] [thread 34382] RISK ALERT [WARNING]: Portfolio concentration too high (Current: 0.92, Limit: 0.30)
+[2025-07-01 18:47:39.067] [main] [info] [thread 34382] Risk Event: Risk alert generated: Portfolio concentration too high
+[2025-07-01 18:47:39.067] [main] [warning] [thread 34382] RISK ALERT [WARNING]: Low liquidity detected in portfolio (Current: 0.98, Limit: 0.20)
+[2025-07-01 18:47:39.067] [main] [info] [thread 34382] Risk Event: Risk alert generated: Low liquidity detected in portfolio
+[2025-07-01 18:47:39.067] [main] [info] [thread 34347] New prices: BTC=$45840.33, ETH=$3076.37, SOL=$183.58
+[2025-07-01 18:47:39.144] [main] [info] [thread 34347] 
+After price movements:
+[2025-07-01 18:47:39.144] [main] [info] [thread 34347]   Portfolio VaR: $0.00
+[2025-07-01 18:47:39.144] [main] [info] [thread 34347]   Total P&L: $8833.69
+[2025-07-01 18:47:39.144] [main] [info] [thread 34347] 
+--- Step 8: Generate Reports ---
+[2025-07-01 18:47:39.144] [main] [info] [thread 34347] 
+=== Position Manager Report ===
+Active Positions: 3
+Total Capital: $1000000.00
+Allocated Capital: $246500.00
+Available Capital: $-146500.00
+
+=== Portfolio P&L ===
+Realized P&L: $0.00
+Unrealized P&L: $8833.69
+Total P&L: $8833.69
+Funding P&L: $0.00
+
+=== Active Positions ===
+ID: BTC_BINANCE_001
+  Symbol: BTC/binance
+  Size: 2.50
+  Notional: $114600.83
+  Entry Price: $45000.00
+  Current Price: $45840.33
+  P&L: $2100.83
+
+ID: ETH_OKX_002
+  Symbol: ETH/okx
+  Size: -40.00
+  Notional: $-123054.92
+  Entry Price: $3200.00
+  Current Price: $3076.37
+  P&L: $4945.08
+
+ID: SOL_SYNTH_003
+  Symbol: SOL/bybit
+  Size: 500.00
+  Notional: $91787.77
+  Entry Price: $180.00
+  Current Price: $183.58
+  P&L: $1787.77
+
+
+[2025-07-01 18:47:39.222] [main] [info] [thread 34347] 
+=== Risk Manager Status Report ===
+Running: Yes
+Monitoring: Active
+Active Positions: 4
+Active Alerts: 4
+
+=== Risk Metrics ===
+Portfolio VaR: $0
+Expected Shortfall: $0
+Total Exposure: $2.63239e+06
+Leveraged Exposure: $1.19872e+07
+Concentration Risk: 91.7266%
+Liquidity Risk: 98.3%
+
+[2025-07-01 18:47:44.072] [main] [info] [thread 34347] Stopped real-time risk monitoring
+[2025-07-01 18:47:44.072] [main] [info] [thread 34347] Risk monitoring stopped
+[2025-07-01 18:47:44.072] [main] [info] [thread 34347] === Phase 5 Demo Completed Successfully ===
+[2025-07-01 18:47:44.072] [main] [info] [thread 34347] PositionManager shutdown completed
+[2025-07-01 18:47:44.072] [main] [info] [thread 34347] RiskManager shutdown completed
+[2025-07-02 10:49:20.492] [main] [info] [thread 52262] Logging system initialized successfully
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] Console level: 2, File level: 1
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] === Phase 5 Demo: Advanced Risk Management & Position Tracking ===
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] 
+--- Step 1: Initialize Risk Management System ---
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] RiskManager initialized with limits: MaxVaR=50000, MaxLeverage=3
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] RiskManager initialized successfully
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] Risk Manager initialized with limits:
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262]   - Max VaR: $50000
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262]   - Max Leverage: 3.0x
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262]   - Max Concentration: 30%
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] 
+--- Step 2: Initialize Position Management System ---
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] PositionManager initialized with sizing method: 2
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] PositionManager initialized with capital: $1000000.00
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] Allocated $400000.00 to strategy: arbitrage
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] Allocated $300000.00 to strategy: statistical
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] Allocated $200000.00 to strategy: volatility
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] Position Manager initialized with capital: $1000000
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] Capital allocated to strategies:
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262]   - Arbitrage: $400,000
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262]   - Statistical: $300,000
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262]   - Volatility: $200,000
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262]   - Reserve: $100,000
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] 
+--- Step 3: Demonstrate Position Sizing Algorithms ---
+[2025-07-02 10:49:20.493] [main] [warning] [thread 52262] Position would exceed concentration limit
+[2025-07-02 10:49:20.493] [main] [warning] [thread 52262] Position failed risk checks: BTC/binance
+[2025-07-02 10:49:20.493] [main] [warning] [thread 52262] Position would exceed concentration limit
+[2025-07-02 10:49:20.493] [main] [warning] [thread 52262] Position failed risk checks: ETH/okx
+[2025-07-02 10:49:20.493] [main] [warning] [thread 52262] Position would exceed concentration limit
+[2025-07-02 10:49:20.493] [main] [warning] [thread 52262] Position failed risk checks: SOL/bybit
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] 
+--- Step 4: Simulate Trading Activity ---
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] Added position: BTC_BINANCE_001 BTC binance size=2.5
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] Position Event: Position opened [BTC_BINANCE_001]
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] Opened position: BTC binance 2.5 @ $45000.00
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] Added position: ETH_OKX_002 ETH okx size=-40
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] Position Event: Position opened [ETH_OKX_002]
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] Opened position: ETH okx -40.0 @ $3200.00
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] Added position: SOL_SYNTH_003 SOL bybit size=500
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] Position Event: Position opened [SOL_SYNTH_003]
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] Opened position: SOL bybit 500.0 @ $180.00
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] Market data updated for all positions
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] 
+--- Step 5: Demonstrate Risk Monitoring ---
+[2025-07-02 10:49:20.493] [main] [info] [thread 52262] Started real-time risk monitoring
+[2025-07-02 10:49:20.552] [main] [info] [thread 52262] Current Risk Metrics:
+[2025-07-02 10:49:20.552] [main] [info] [thread 52262]   Portfolio VaR (95%): $3140.50
+[2025-07-02 10:49:20.552] [main] [info] [thread 52262]   Expected Shortfall: $3998.70
+[2025-07-02 10:49:20.552] [main] [info] [thread 52262]   Total Exposure: $334750.00
+[2025-07-02 10:49:20.552] [main] [info] [thread 52262]   Leveraged Exposure: $490250.00
+[2025-07-02 10:49:20.552] [main] [info] [thread 52262]   Concentration Risk: 37.6%
+[2025-07-02 10:49:20.552] [main] [info] [thread 52262]   Correlation Risk: 50.0%
+[2025-07-02 10:49:20.552] [main] [info] [thread 52262]   Liquidity Risk: 98.4%
+[2025-07-02 10:49:20.552] [main] [info] [thread 52262]   Funding Rate Risk: 27.6%
+[2025-07-02 10:49:20.552] [main] [info] [thread 52262] 
+Portfolio P&L:
+[2025-07-02 10:49:20.552] [main] [info] [thread 52262]   Realized P&L: $0.00
+[2025-07-02 10:49:20.552] [main] [info] [thread 52262]   Unrealized P&L: $8250.00
+[2025-07-02 10:49:20.552] [main] [info] [thread 52262]   Total P&L: $8250.00
+[2025-07-02 10:49:20.552] [main] [info] [thread 52262]   Funding P&L: $0.00
+[2025-07-02 10:49:20.624] [main] [warning] [thread 52351] RISK ALERT [WARNING]: Portfolio concentration too high (Current: 0.38, Limit: 0.30)
+[2025-07-02 10:49:20.624] [main] [info] [thread 52351] Risk Event: Risk alert generated: Portfolio concentration too high
+[2025-07-02 10:49:20.624] [main] [warning] [thread 52351] RISK ALERT [WARNING]: Low liquidity detected in portfolio (Current: 0.98, Limit: 0.20)
+[2025-07-02 10:49:20.624] [main] [info] [thread 52351] Risk Event: Risk alert generated: Low liquidity detected in portfolio
+[2025-07-02 10:49:22.557] [main] [info] [thread 52262] 
+--- Step 6: Test Risk Limits and Alerts ---
+[2025-07-02 10:49:22.557] [main] [info] [thread 52262] Attempting to open large position: BTC 50.0 @ $46000 ($2300000 notional, 5.0x leverage)
+[2025-07-02 10:49:22.557] [main] [error] [thread 52262] Insufficient capital for position: LARGE_POSITION_004 (required: 460000.00)
+[2025-07-02 10:49:22.557] [main] [info] [thread 52262] Large position rejected due to risk limits - GOOD!
+[2025-07-02 10:49:22.557] [main] [info] [thread 52262] Active risk alerts: 2
+[2025-07-02 10:49:22.557] [main] [info] [thread 52262]   - [WARNING] Portfolio concentration too high
+[2025-07-02 10:49:22.557] [main] [info] [thread 52262]   - [WARNING] Low liquidity detected in portfolio
+[2025-07-02 10:49:22.557] [main] [info] [thread 52262] Added position: LARGE_POSITION_004 BTC binance size=50
+[2025-07-02 10:49:22.639] [main] [info] [thread 52262] Risk limit check generated 2 alerts
+[2025-07-02 10:49:25.644] [main] [info] [thread 52262] 
+--- Step 7: Demonstrate Portfolio Analytics ---
+[2025-07-02 10:49:25.644] [main] [info] [thread 52262] Portfolio volatility: 0.0%
+[2025-07-02 10:49:25.644] [main] [info] [thread 52262] 
+Capital Allocation:
+[2025-07-02 10:49:25.644] [main] [info] [thread 52262]   Total Capital: $1000000
+[2025-07-02 10:49:25.644] [main] [info] [thread 52262]   Allocated Capital: $246500
+[2025-07-02 10:49:25.644] [main] [info] [thread 52262]   Available Capital: $-146500
+[2025-07-02 10:49:25.644] [main] [info] [thread 52262]   Used Margin: $0
+[2025-07-02 10:49:25.644] [main] [info] [thread 52262]   Strategy Allocations:
+[2025-07-02 10:49:25.644] [main] [info] [thread 52262]     arbitrage: $400000
+[2025-07-02 10:49:25.644] [main] [info] [thread 52262]     statistical: $300000
+[2025-07-02 10:49:25.644] [main] [info] [thread 52262]     volatility: $200000
+[2025-07-02 10:49:25.644] [main] [info] [thread 52262] 
+Simulating market price movements...
+[2025-07-02 10:49:25.761] [main] [warning] [thread 52351] RISK ALERT [WARNING]: Portfolio concentration too high (Current: 0.92, Limit: 0.30)
+[2025-07-02 10:49:25.761] [main] [info] [thread 52351] Risk Event: Risk alert generated: Portfolio concentration too high
+[2025-07-02 10:49:25.761] [main] [warning] [thread 52351] RISK ALERT [WARNING]: Low liquidity detected in portfolio (Current: 0.98, Limit: 0.20)
+[2025-07-02 10:49:25.761] [main] [info] [thread 52351] Risk Event: Risk alert generated: Low liquidity detected in portfolio
+[2025-07-02 10:49:25.761] [main] [info] [thread 52262] New prices: BTC=$46120.65, ETH=$3103.22, SOL=$184.17
+[2025-07-02 10:49:25.838] [main] [info] [thread 52262] 
+After price movements:
+[2025-07-02 10:49:25.838] [main] [info] [thread 52262]   Portfolio VaR: $0.00
+[2025-07-02 10:49:25.838] [main] [info] [thread 52262]   Total P&L: $8759.13
+[2025-07-02 10:49:25.838] [main] [info] [thread 52262] 
+--- Step 8: Generate Reports ---
+[2025-07-02 10:49:25.838] [main] [info] [thread 52262] 
+=== Position Manager Report ===
+Active Positions: 3
+Total Capital: $1000000.00
+Allocated Capital: $246500.00
+Available Capital: $-146500.00
+
+=== Portfolio P&L ===
+Realized P&L: $0.00
+Unrealized P&L: $8759.13
+Total P&L: $8759.13
+Funding P&L: $0.00
+
+=== Active Positions ===
+ID: BTC_BINANCE_001
+  Symbol: BTC/binance
+  Size: 2.50
+  Notional: $115301.62
+  Entry Price: $45000.00
+  Current Price: $46120.65
+  P&L: $2801.62
+
+ID: ETH_OKX_002
+  Symbol: ETH/okx
+  Size: -40.00
+  Notional: $-124128.64
+  Entry Price: $3200.00
+  Current Price: $3103.22
+  P&L: $3871.36
+
+ID: SOL_SYNTH_003
+  Symbol: SOL/bybit
+  Size: 500.00
+  Notional: $92086.16
+  Entry Price: $180.00
+  Current Price: $184.17
+  P&L: $2086.16
+
+
+[2025-07-02 10:49:25.916] [main] [info] [thread 52262] 
+=== Risk Manager Status Report ===
+Running: Yes
+Monitoring: Active
+Active Positions: 4
+Active Alerts: 4
+
+=== Risk Metrics ===
+Portfolio VaR: $0
+Expected Shortfall: $0
+Total Exposure: $2.63339e+06
+Leveraged Exposure: $1.19885e+07
+Concentration Risk: 91.7184%
+Liquidity Risk: 98.3%
+
+[2025-07-02 10:49:30.766] [main] [info] [thread 52262] Stopped real-time risk monitoring
+[2025-07-02 10:49:30.766] [main] [info] [thread 52262] Risk monitoring stopped
+[2025-07-02 10:49:30.766] [main] [info] [thread 52262] === Phase 5 Demo Completed Successfully ===
+[2025-07-02 10:49:30.766] [main] [info] [thread 52262] PositionManager shutdown completed
+[2025-07-02 10:49:30.766] [main] [info] [thread 52262] RiskManager shutdown completed
+[2025-07-02 19:15:35.428] [main] [info] [thread 108679] Logging system initialized successfully
+[2025-07-02 19:15:35.428] [main] [info] [thread 108679] Console level: 2, File level: 1
+[2025-07-02 19:15:35.428] [main] [info] [thread 108679] Starting Phase 2 Market Data Demo
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] Configuration loaded successfully
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] === Phase 2: Market Data Infrastructure Demo ===
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] Sample OrderBook created:
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679]   Symbol: BTCUSDT
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679]   Exchange: binance
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679]   Best Bid: $50000.50
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679]   Best Ask: $50000.75
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679]   Mid Price: $50000.62
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679]   Is Valid: Yes
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] OrderBook added to MarketData container
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] Sample Trade created:
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679]   Symbol: BTCUSDT
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679]   Exchange: binance
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679]   Price: $50000.60
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679]   Quantity: 0.15000000
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679]   Is Buyer Maker: No
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] Sample Ticker created:
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679]   Last Price: $50000.60
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679]   24h Volume: 1250.75
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679]   24h Change: 0.30%
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679]   24h High: $51200.00
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679]   24h Low: $49800.00
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] \n=== Testing WebSocket Client Factory ===
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] Initializing Binance WebSocket client for real API connection
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] Binance WebSocket client created successfully
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] Exchange: binance
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] Status: 0
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] Initializing OKX WebSocket client for real API connection
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] OKX WebSocket client created successfully
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] Initializing Bybit WebSocket client for real API connection
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] Bybit WebSocket client created successfully
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] Destroying Bybit WebSocket client
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] Disconnecting from Bybit WebSocket API
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] WebSocket client for bybit status changed from 0 to 0
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] Destroying OKX WebSocket client
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] Disconnecting from OKX WebSocket API
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] WebSocket client for okx status changed from 0 to 0
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] Destroying Binance WebSocket client
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] Disconnecting from Binance WebSocket API
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] WebSocket client for binance status changed from 0 to 0
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] \n=== Data Validation Tests ===
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] MarketData has OrderBook for Binance: Yes
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] MarketData has OrderBook for OKX: No
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] MarketData has Trade for Binance: Yes
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] MarketData has Ticker for Binance: Yes
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] \n=== Phase 2 Demo Completed Successfully! ===
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] Market data infrastructure is working correctly.
+[2025-07-02 19:15:35.429] [main] [info] [thread 108679] Ready to proceed with real WebSocket connections and Phase 3.

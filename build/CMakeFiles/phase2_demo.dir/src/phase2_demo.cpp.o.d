@@ -1036,7 +1036,6 @@ CMakeFiles/phase2_demo.dir/src/phase2_demo.cpp.o: \
   /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/spdlog/include/spdlog/details/circular_q.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
   /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/spdlog/include/spdlog/details/backtracer-inl.h \
   /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/spdlog/include/spdlog/logger-inl.h \
@@ -1069,28 +1068,7 @@ CMakeFiles/phase2_demo.dir/src/phase2_demo.cpp.o: \
   /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/spdlog/include/spdlog/details/mpmc_blocking_q.h \
   /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/spdlog/include/spdlog/details/thread_pool-inl.h \
   /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/data/BinanceClient.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/json.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/adl_serializer.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/abi_macros.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/conversions/from_json.hpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/valarray \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/exceptions.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/value_t.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/macro_scope.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/meta/detected.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/meta/void_t.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/string_escape.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/input/position_t.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/meta/cpp_future.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/meta/type_traits.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/iterators/iterator_traits.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/meta/call_std/begin.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/meta/call_std/end.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/json_fwd.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/string_concat.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/meta/identity_tag.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/meta/std_fs.hpp \
+  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/utils/ConfigManager.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
@@ -1109,78 +1087,4 @@ CMakeFiles/phase2_demo.dir/src/phase2_demo.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/conversions/to_json.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/iterators/iteration_proxy.hpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ranges \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/all.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/owning_view.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/range_adaptor.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/as_rvalue_view.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/chunk_by_view.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/non_propagating_cache.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/reverse_view.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/common_view.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/counted.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/span \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/span.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/drop_view.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/empty_view.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/iota_view.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/repeat_view.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/drop_while_view.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/elements_view.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/filter_view.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/join_view.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iterator_with_data.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/lazy_split_view.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/single_view.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/rbegin.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/rend.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/split_view.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/take_view.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/take_while_view.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/to.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/transform_view.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/views.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/zip_view.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/istream_view.h \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/byte_container_with_subtype.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/hash.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/input/binary_reader.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/input/input_adapters.hpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/accumulate.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inner_product.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/iota.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/midpoint.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/partial_sum.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/pstl_reduce.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/saturation_arithmetic.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/input/json_sax.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/input/lexer.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/meta/is_sax.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/input/parser.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/iterators/internal_iterator.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/iterators/primitive_iterator.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/iterators/iter_impl.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/json_custom_base_class.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/json_pointer.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/json_ref.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/output/binary_writer.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/output/output_adapters.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/output/serializer.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/conversions/to_chars.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/ordered_map.hpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/any \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/detail/macro_unscope.hpp \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/external/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/set \
-  /Users/sumitmadde/Desktop/Synthetic\ Pair\ Deviation\ Engine/src/utils/ConfigManager.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream

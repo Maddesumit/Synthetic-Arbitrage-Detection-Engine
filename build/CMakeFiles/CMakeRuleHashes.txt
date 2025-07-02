@@ -5,8 +5,6 @@
 03aa600faebfca82159055ab6f570bbd CMakeFiles/nlohmann_json-complete
 021e5cf88c0b8645acd01f55b6a58137 CMakeFiles/spdlog
 128ee102039012e0811af036c532c14d CMakeFiles/spdlog-complete
-021e5cf88c0b8645acd01f55b6a58137 CMakeFiles/websocketpp
-c566357bbd81395329b67aab8bd8d6ab CMakeFiles/websocketpp-complete
 021e5cf88c0b8645acd01f55b6a58137 CMakeFiles/xsimd
 3cf4c88decf2f7e203f270d968480338 CMakeFiles/xsimd-complete
 8f939e8034d7d96ae80855d4a53e2725 catch2-prefix/src/catch2-stamp/catch2-build
@@ -30,13 +28,6 @@ b9f993ac98033d416c2df7cd2c9e2324 spdlog-prefix/src/spdlog-stamp/spdlog-download
 0c6650f7467fa60dba150d36e6dcf841 spdlog-prefix/src/spdlog-stamp/spdlog-mkdir
 9ee1d089b6c3a7147e31e4734cd08c5c spdlog-prefix/src/spdlog-stamp/spdlog-patch
 544a2e716f505712d9eaae1d51b6977d spdlog-prefix/src/spdlog-stamp/spdlog-update
-428c20dfd8e17cb947f947ef36fc27cc websocketpp-prefix/src/websocketpp-stamp/websocketpp-build
-7bcd7f79d3f48bee77e46ebfb336d0b1 websocketpp-prefix/src/websocketpp-stamp/websocketpp-configure
-8c0bf71fbd7230bce696d03dcba5c742 websocketpp-prefix/src/websocketpp-stamp/websocketpp-download
-920b0c718a65e0ab4d056b0992bde7b4 websocketpp-prefix/src/websocketpp-stamp/websocketpp-install
-306533bcf1fc1d5e3d751811f99b16e8 websocketpp-prefix/src/websocketpp-stamp/websocketpp-mkdir
-1af1748f0acbcd33d889622ba372d80a websocketpp-prefix/src/websocketpp-stamp/websocketpp-patch
-bb7a7245fcba7960a150d231f542ec56 websocketpp-prefix/src/websocketpp-stamp/websocketpp-update
 0f990df8ef5102299e3ed82c6f9c8fc6 xsimd-prefix/src/xsimd-stamp/xsimd-build
 2a007e2802000aa7a60902e95b8079b5 xsimd-prefix/src/xsimd-stamp/xsimd-configure
 2262a5c7fabf44a386b191a7ce07afcd xsimd-prefix/src/xsimd-stamp/xsimd-download

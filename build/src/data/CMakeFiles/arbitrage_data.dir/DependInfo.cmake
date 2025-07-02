@@ -9,7 +9,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/data/BinanceClient.cpp" "src/data/CMakeFiles/arbitrage_data.dir/BinanceClient.cpp.o" "gcc" "src/data/CMakeFiles/arbitrage_data.dir/BinanceClient.cpp.o.d"
+  "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/data/BybitClient.cpp" "src/data/CMakeFiles/arbitrage_data.dir/BybitClient.cpp.o" "gcc" "src/data/CMakeFiles/arbitrage_data.dir/BybitClient.cpp.o.d"
   "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/data/MarketData.cpp" "src/data/CMakeFiles/arbitrage_data.dir/MarketData.cpp.o" "gcc" "src/data/CMakeFiles/arbitrage_data.dir/MarketData.cpp.o.d"
+  "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/data/OKXClient.cpp" "src/data/CMakeFiles/arbitrage_data.dir/OKXClient.cpp.o" "gcc" "src/data/CMakeFiles/arbitrage_data.dir/OKXClient.cpp.o.d"
+  "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/data/RealTimeDataManager.cpp" "src/data/CMakeFiles/arbitrage_data.dir/RealTimeDataManager.cpp.o" "gcc" "src/data/CMakeFiles/arbitrage_data.dir/RealTimeDataManager.cpp.o.d"
   "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/src/data/WebSocketClient.cpp" "src/data/CMakeFiles/arbitrage_data.dir/WebSocketClient.cpp.o" "gcc" "src/data/CMakeFiles/arbitrage_data.dir/WebSocketClient.cpp.o.d"
   )
 

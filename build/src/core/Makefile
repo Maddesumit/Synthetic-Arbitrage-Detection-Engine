@@ -209,6 +209,54 @@ ArbitrageEngine.cpp.s:
 	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/ArbitrageEngine.cpp.s
 .PHONY : ArbitrageEngine.cpp.s
 
+ExecutionPlanner.o: ExecutionPlanner.cpp.o
+.PHONY : ExecutionPlanner.o
+
+# target to build an object file
+ExecutionPlanner.cpp.o:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/ExecutionPlanner.cpp.o
+.PHONY : ExecutionPlanner.cpp.o
+
+ExecutionPlanner.i: ExecutionPlanner.cpp.i
+.PHONY : ExecutionPlanner.i
+
+# target to preprocess a source file
+ExecutionPlanner.cpp.i:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/ExecutionPlanner.cpp.i
+.PHONY : ExecutionPlanner.cpp.i
+
+ExecutionPlanner.s: ExecutionPlanner.cpp.s
+.PHONY : ExecutionPlanner.s
+
+# target to generate assembly for a file
+ExecutionPlanner.cpp.s:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/ExecutionPlanner.cpp.s
+.PHONY : ExecutionPlanner.cpp.s
+
+ExecutionSimulator.o: ExecutionSimulator.cpp.o
+.PHONY : ExecutionSimulator.o
+
+# target to build an object file
+ExecutionSimulator.cpp.o:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/ExecutionSimulator.cpp.o
+.PHONY : ExecutionSimulator.cpp.o
+
+ExecutionSimulator.i: ExecutionSimulator.cpp.i
+.PHONY : ExecutionSimulator.i
+
+# target to preprocess a source file
+ExecutionSimulator.cpp.i:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/ExecutionSimulator.cpp.i
+.PHONY : ExecutionSimulator.cpp.i
+
+ExecutionSimulator.s: ExecutionSimulator.cpp.s
+.PHONY : ExecutionSimulator.s
+
+# target to generate assembly for a file
+ExecutionSimulator.cpp.s:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/ExecutionSimulator.cpp.s
+.PHONY : ExecutionSimulator.cpp.s
+
 MathUtils.o: MathUtils.cpp.o
 .PHONY : MathUtils.o
 
@@ -232,6 +280,78 @@ MathUtils.s: MathUtils.cpp.s
 MathUtils.cpp.s:
 	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/MathUtils.cpp.s
 .PHONY : MathUtils.cpp.s
+
+OpportunityRanker.o: OpportunityRanker.cpp.o
+.PHONY : OpportunityRanker.o
+
+# target to build an object file
+OpportunityRanker.cpp.o:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/OpportunityRanker.cpp.o
+.PHONY : OpportunityRanker.cpp.o
+
+OpportunityRanker.i: OpportunityRanker.cpp.i
+.PHONY : OpportunityRanker.i
+
+# target to preprocess a source file
+OpportunityRanker.cpp.i:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/OpportunityRanker.cpp.i
+.PHONY : OpportunityRanker.cpp.i
+
+OpportunityRanker.s: OpportunityRanker.cpp.s
+.PHONY : OpportunityRanker.s
+
+# target to generate assembly for a file
+OpportunityRanker.cpp.s:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/OpportunityRanker.cpp.s
+.PHONY : OpportunityRanker.cpp.s
+
+PnLTracker.o: PnLTracker.cpp.o
+.PHONY : PnLTracker.o
+
+# target to build an object file
+PnLTracker.cpp.o:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/PnLTracker.cpp.o
+.PHONY : PnLTracker.cpp.o
+
+PnLTracker.i: PnLTracker.cpp.i
+.PHONY : PnLTracker.i
+
+# target to preprocess a source file
+PnLTracker.cpp.i:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/PnLTracker.cpp.i
+.PHONY : PnLTracker.cpp.i
+
+PnLTracker.s: PnLTracker.cpp.s
+.PHONY : PnLTracker.s
+
+# target to generate assembly for a file
+PnLTracker.cpp.s:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/PnLTracker.cpp.s
+.PHONY : PnLTracker.cpp.s
+
+PositionManager.o: PositionManager.cpp.o
+.PHONY : PositionManager.o
+
+# target to build an object file
+PositionManager.cpp.o:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/PositionManager.cpp.o
+.PHONY : PositionManager.cpp.o
+
+PositionManager.i: PositionManager.cpp.i
+.PHONY : PositionManager.i
+
+# target to preprocess a source file
+PositionManager.cpp.i:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/PositionManager.cpp.i
+.PHONY : PositionManager.cpp.i
+
+PositionManager.s: PositionManager.cpp.s
+.PHONY : PositionManager.s
+
+# target to generate assembly for a file
+PositionManager.cpp.s:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/PositionManager.cpp.s
+.PHONY : PositionManager.cpp.s
 
 PricingEngine.o: PricingEngine.cpp.o
 .PHONY : PricingEngine.o
@@ -257,6 +377,30 @@ PricingEngine.cpp.s:
 	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/PricingEngine.cpp.s
 .PHONY : PricingEngine.cpp.s
 
+RiskManager.o: RiskManager.cpp.o
+.PHONY : RiskManager.o
+
+# target to build an object file
+RiskManager.cpp.o:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/RiskManager.cpp.o
+.PHONY : RiskManager.cpp.o
+
+RiskManager.i: RiskManager.cpp.i
+.PHONY : RiskManager.i
+
+# target to preprocess a source file
+RiskManager.cpp.i:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/RiskManager.cpp.i
+.PHONY : RiskManager.cpp.i
+
+RiskManager.s: RiskManager.cpp.s
+.PHONY : RiskManager.s
+
+# target to generate assembly for a file
+RiskManager.cpp.s:
+	cd "/Users/sumitmadde/Desktop/Synthetic Pair Deviation Engine/build" && $(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/arbitrage_core.dir/build.make src/core/CMakeFiles/arbitrage_core.dir/RiskManager.cpp.s
+.PHONY : RiskManager.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -274,12 +418,30 @@ help:
 	@echo "... ArbitrageEngine.o"
 	@echo "... ArbitrageEngine.i"
 	@echo "... ArbitrageEngine.s"
+	@echo "... ExecutionPlanner.o"
+	@echo "... ExecutionPlanner.i"
+	@echo "... ExecutionPlanner.s"
+	@echo "... ExecutionSimulator.o"
+	@echo "... ExecutionSimulator.i"
+	@echo "... ExecutionSimulator.s"
 	@echo "... MathUtils.o"
 	@echo "... MathUtils.i"
 	@echo "... MathUtils.s"
+	@echo "... OpportunityRanker.o"
+	@echo "... OpportunityRanker.i"
+	@echo "... OpportunityRanker.s"
+	@echo "... PnLTracker.o"
+	@echo "... PnLTracker.i"
+	@echo "... PnLTracker.s"
+	@echo "... PositionManager.o"
+	@echo "... PositionManager.i"
+	@echo "... PositionManager.s"
 	@echo "... PricingEngine.o"
 	@echo "... PricingEngine.i"
 	@echo "... PricingEngine.s"
+	@echo "... RiskManager.o"
+	@echo "... RiskManager.i"
+	@echo "... RiskManager.s"
 .PHONY : help
 
 
