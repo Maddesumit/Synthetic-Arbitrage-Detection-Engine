@@ -380,6 +380,71 @@ performance_benchmark/fast:
 .PHONY : performance_benchmark/fast
 
 #=============================================================================
+# Target rules for targets named arbitrage_config
+
+# Build rule for target.
+arbitrage_config: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arbitrage_config
+.PHONY : arbitrage_config
+
+# fast build rule for target.
+arbitrage_config/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_config.dir/build.make CMakeFiles/arbitrage_config.dir/build
+.PHONY : arbitrage_config/fast
+
+#=============================================================================
+# Target rules for targets named arbitrage_enhanced_risk
+
+# Build rule for target.
+arbitrage_enhanced_risk: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arbitrage_enhanced_risk
+.PHONY : arbitrage_enhanced_risk
+
+# fast build rule for target.
+arbitrage_enhanced_risk/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_enhanced_risk.dir/build.make CMakeFiles/arbitrage_enhanced_risk.dir/build
+.PHONY : arbitrage_enhanced_risk/fast
+
+#=============================================================================
+# Target rules for targets named arbitrage_persistence
+
+# Build rule for target.
+arbitrage_persistence: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arbitrage_persistence
+.PHONY : arbitrage_persistence
+
+# fast build rule for target.
+arbitrage_persistence/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_persistence.dir/build.make CMakeFiles/arbitrage_persistence.dir/build
+.PHONY : arbitrage_persistence/fast
+
+#=============================================================================
+# Target rules for targets named arbitrage_api
+
+# Build rule for target.
+arbitrage_api: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arbitrage_api
+.PHONY : arbitrage_api
+
+# fast build rule for target.
+arbitrage_api/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_api.dir/build.make CMakeFiles/arbitrage_api.dir/build
+.PHONY : arbitrage_api/fast
+
+#=============================================================================
+# Target rules for targets named phase8_integration_demo
+
+# Build rule for target.
+phase8_integration_demo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 phase8_integration_demo
+.PHONY : phase8_integration_demo
+
+# fast build rule for target.
+phase8_integration_demo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase8_integration_demo.dir/build.make CMakeFiles/phase8_integration_demo.dir/build
+.PHONY : phase8_integration_demo/fast
+
+#=============================================================================
 # Target rules for targets named arbitrage_core
 
 # Build rule for target.
@@ -444,6 +509,54 @@ run_tests/fast:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/run_tests.dir/build.make tests/CMakeFiles/run_tests.dir/build
 .PHONY : run_tests/fast
 
+src/api/ApiFramework.o: src/api/ApiFramework.cpp.o
+.PHONY : src/api/ApiFramework.o
+
+# target to build an object file
+src/api/ApiFramework.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_api.dir/build.make CMakeFiles/arbitrage_api.dir/src/api/ApiFramework.cpp.o
+.PHONY : src/api/ApiFramework.cpp.o
+
+src/api/ApiFramework.i: src/api/ApiFramework.cpp.i
+.PHONY : src/api/ApiFramework.i
+
+# target to preprocess a source file
+src/api/ApiFramework.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_api.dir/build.make CMakeFiles/arbitrage_api.dir/src/api/ApiFramework.cpp.i
+.PHONY : src/api/ApiFramework.cpp.i
+
+src/api/ApiFramework.s: src/api/ApiFramework.cpp.s
+.PHONY : src/api/ApiFramework.s
+
+# target to generate assembly for a file
+src/api/ApiFramework.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_api.dir/build.make CMakeFiles/arbitrage_api.dir/src/api/ApiFramework.cpp.s
+.PHONY : src/api/ApiFramework.cpp.s
+
+src/api/ApiServerImplementation.o: src/api/ApiServerImplementation.cpp.o
+.PHONY : src/api/ApiServerImplementation.o
+
+# target to build an object file
+src/api/ApiServerImplementation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_api.dir/build.make CMakeFiles/arbitrage_api.dir/src/api/ApiServerImplementation.cpp.o
+.PHONY : src/api/ApiServerImplementation.cpp.o
+
+src/api/ApiServerImplementation.i: src/api/ApiServerImplementation.cpp.i
+.PHONY : src/api/ApiServerImplementation.i
+
+# target to preprocess a source file
+src/api/ApiServerImplementation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_api.dir/build.make CMakeFiles/arbitrage_api.dir/src/api/ApiServerImplementation.cpp.i
+.PHONY : src/api/ApiServerImplementation.cpp.i
+
+src/api/ApiServerImplementation.s: src/api/ApiServerImplementation.cpp.s
+.PHONY : src/api/ApiServerImplementation.s
+
+# target to generate assembly for a file
+src/api/ApiServerImplementation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_api.dir/build.make CMakeFiles/arbitrage_api.dir/src/api/ApiServerImplementation.cpp.s
+.PHONY : src/api/ApiServerImplementation.cpp.s
+
 src/benchmarks/performance_benchmark.o: src/benchmarks/performance_benchmark.cpp.o
 .PHONY : src/benchmarks/performance_benchmark.o
 
@@ -467,6 +580,30 @@ src/benchmarks/performance_benchmark.s: src/benchmarks/performance_benchmark.cpp
 src/benchmarks/performance_benchmark.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/performance_benchmark.dir/build.make CMakeFiles/performance_benchmark.dir/src/benchmarks/performance_benchmark.cpp.s
 .PHONY : src/benchmarks/performance_benchmark.cpp.s
+
+src/config/ConfigurationManager.o: src/config/ConfigurationManager.cpp.o
+.PHONY : src/config/ConfigurationManager.o
+
+# target to build an object file
+src/config/ConfigurationManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_config.dir/build.make CMakeFiles/arbitrage_config.dir/src/config/ConfigurationManager.cpp.o
+.PHONY : src/config/ConfigurationManager.cpp.o
+
+src/config/ConfigurationManager.i: src/config/ConfigurationManager.cpp.i
+.PHONY : src/config/ConfigurationManager.i
+
+# target to preprocess a source file
+src/config/ConfigurationManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_config.dir/build.make CMakeFiles/arbitrage_config.dir/src/config/ConfigurationManager.cpp.i
+.PHONY : src/config/ConfigurationManager.cpp.i
+
+src/config/ConfigurationManager.s: src/config/ConfigurationManager.cpp.s
+.PHONY : src/config/ConfigurationManager.s
+
+# target to generate assembly for a file
+src/config/ConfigurationManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_config.dir/build.make CMakeFiles/arbitrage_config.dir/src/config/ConfigurationManager.cpp.s
+.PHONY : src/config/ConfigurationManager.cpp.s
 
 src/core/AlgorithmOptimizer.o: src/core/AlgorithmOptimizer.cpp.o
 .PHONY : src/core/AlgorithmOptimizer.o
@@ -539,6 +676,30 @@ src/dashboard_demo.s: src/dashboard_demo.cpp.s
 src/dashboard_demo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dashboard_demo.dir/build.make CMakeFiles/dashboard_demo.dir/src/dashboard_demo.cpp.s
 .PHONY : src/dashboard_demo.cpp.s
+
+src/data/DataPersistence.o: src/data/DataPersistence.cpp.o
+.PHONY : src/data/DataPersistence.o
+
+# target to build an object file
+src/data/DataPersistence.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_persistence.dir/build.make CMakeFiles/arbitrage_persistence.dir/src/data/DataPersistence.cpp.o
+.PHONY : src/data/DataPersistence.cpp.o
+
+src/data/DataPersistence.i: src/data/DataPersistence.cpp.i
+.PHONY : src/data/DataPersistence.i
+
+# target to preprocess a source file
+src/data/DataPersistence.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_persistence.dir/build.make CMakeFiles/arbitrage_persistence.dir/src/data/DataPersistence.cpp.i
+.PHONY : src/data/DataPersistence.cpp.i
+
+src/data/DataPersistence.s: src/data/DataPersistence.cpp.s
+.PHONY : src/data/DataPersistence.s
+
+# target to generate assembly for a file
+src/data/DataPersistence.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_persistence.dir/build.make CMakeFiles/arbitrage_persistence.dir/src/data/DataPersistence.cpp.s
+.PHONY : src/data/DataPersistence.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -780,6 +941,78 @@ src/phase7_performance_demo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase7_performance_demo.dir/build.make CMakeFiles/phase7_performance_demo.dir/src/phase7_performance_demo.cpp.s
 .PHONY : src/phase7_performance_demo.cpp.s
 
+src/phase8_integration_demo.o: src/phase8_integration_demo.cpp.o
+.PHONY : src/phase8_integration_demo.o
+
+# target to build an object file
+src/phase8_integration_demo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase8_integration_demo.dir/build.make CMakeFiles/phase8_integration_demo.dir/src/phase8_integration_demo.cpp.o
+.PHONY : src/phase8_integration_demo.cpp.o
+
+src/phase8_integration_demo.i: src/phase8_integration_demo.cpp.i
+.PHONY : src/phase8_integration_demo.i
+
+# target to preprocess a source file
+src/phase8_integration_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase8_integration_demo.dir/build.make CMakeFiles/phase8_integration_demo.dir/src/phase8_integration_demo.cpp.i
+.PHONY : src/phase8_integration_demo.cpp.i
+
+src/phase8_integration_demo.s: src/phase8_integration_demo.cpp.s
+.PHONY : src/phase8_integration_demo.s
+
+# target to generate assembly for a file
+src/phase8_integration_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phase8_integration_demo.dir/build.make CMakeFiles/phase8_integration_demo.dir/src/phase8_integration_demo.cpp.s
+.PHONY : src/phase8_integration_demo.cpp.s
+
+src/risk/EnhancedRiskModels.o: src/risk/EnhancedRiskModels.cpp.o
+.PHONY : src/risk/EnhancedRiskModels.o
+
+# target to build an object file
+src/risk/EnhancedRiskModels.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_enhanced_risk.dir/build.make CMakeFiles/arbitrage_enhanced_risk.dir/src/risk/EnhancedRiskModels.cpp.o
+.PHONY : src/risk/EnhancedRiskModels.cpp.o
+
+src/risk/EnhancedRiskModels.i: src/risk/EnhancedRiskModels.cpp.i
+.PHONY : src/risk/EnhancedRiskModels.i
+
+# target to preprocess a source file
+src/risk/EnhancedRiskModels.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_enhanced_risk.dir/build.make CMakeFiles/arbitrage_enhanced_risk.dir/src/risk/EnhancedRiskModels.cpp.i
+.PHONY : src/risk/EnhancedRiskModels.cpp.i
+
+src/risk/EnhancedRiskModels.s: src/risk/EnhancedRiskModels.cpp.s
+.PHONY : src/risk/EnhancedRiskModels.s
+
+# target to generate assembly for a file
+src/risk/EnhancedRiskModels.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_enhanced_risk.dir/build.make CMakeFiles/arbitrage_enhanced_risk.dir/src/risk/EnhancedRiskModels.cpp.s
+.PHONY : src/risk/EnhancedRiskModels.cpp.s
+
+src/risk/EnhancedRiskModelsImplementation.o: src/risk/EnhancedRiskModelsImplementation.cpp.o
+.PHONY : src/risk/EnhancedRiskModelsImplementation.o
+
+# target to build an object file
+src/risk/EnhancedRiskModelsImplementation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_enhanced_risk.dir/build.make CMakeFiles/arbitrage_enhanced_risk.dir/src/risk/EnhancedRiskModelsImplementation.cpp.o
+.PHONY : src/risk/EnhancedRiskModelsImplementation.cpp.o
+
+src/risk/EnhancedRiskModelsImplementation.i: src/risk/EnhancedRiskModelsImplementation.cpp.i
+.PHONY : src/risk/EnhancedRiskModelsImplementation.i
+
+# target to preprocess a source file
+src/risk/EnhancedRiskModelsImplementation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_enhanced_risk.dir/build.make CMakeFiles/arbitrage_enhanced_risk.dir/src/risk/EnhancedRiskModelsImplementation.cpp.i
+.PHONY : src/risk/EnhancedRiskModelsImplementation.cpp.i
+
+src/risk/EnhancedRiskModelsImplementation.s: src/risk/EnhancedRiskModelsImplementation.cpp.s
+.PHONY : src/risk/EnhancedRiskModelsImplementation.s
+
+# target to generate assembly for a file
+src/risk/EnhancedRiskModelsImplementation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_enhanced_risk.dir/build.make CMakeFiles/arbitrage_enhanced_risk.dir/src/risk/EnhancedRiskModelsImplementation.cpp.s
+.PHONY : src/risk/EnhancedRiskModelsImplementation.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -797,12 +1030,16 @@ help:
 	@echo "... nlohmann_json"
 	@echo "... spdlog"
 	@echo "... xsimd"
+	@echo "... arbitrage_api"
+	@echo "... arbitrage_config"
 	@echo "... arbitrage_core"
 	@echo "... arbitrage_data"
 	@echo "... arbitrage_engine"
+	@echo "... arbitrage_enhanced_risk"
 	@echo "... arbitrage_monitoring"
 	@echo "... arbitrage_network"
 	@echo "... arbitrage_performance"
+	@echo "... arbitrage_persistence"
 	@echo "... arbitrage_ui"
 	@echo "... arbitrage_utils"
 	@echo "... dashboard_demo"
@@ -813,10 +1050,20 @@ help:
 	@echo "... phase5_demo"
 	@echo "... phase6_demo"
 	@echo "... phase7_performance_demo"
+	@echo "... phase8_integration_demo"
 	@echo "... run_tests"
+	@echo "... src/api/ApiFramework.o"
+	@echo "... src/api/ApiFramework.i"
+	@echo "... src/api/ApiFramework.s"
+	@echo "... src/api/ApiServerImplementation.o"
+	@echo "... src/api/ApiServerImplementation.i"
+	@echo "... src/api/ApiServerImplementation.s"
 	@echo "... src/benchmarks/performance_benchmark.o"
 	@echo "... src/benchmarks/performance_benchmark.i"
 	@echo "... src/benchmarks/performance_benchmark.s"
+	@echo "... src/config/ConfigurationManager.o"
+	@echo "... src/config/ConfigurationManager.i"
+	@echo "... src/config/ConfigurationManager.s"
 	@echo "... src/core/AlgorithmOptimizer.o"
 	@echo "... src/core/AlgorithmOptimizer.i"
 	@echo "... src/core/AlgorithmOptimizer.s"
@@ -826,6 +1073,9 @@ help:
 	@echo "... src/dashboard_demo.o"
 	@echo "... src/dashboard_demo.i"
 	@echo "... src/dashboard_demo.s"
+	@echo "... src/data/DataPersistence.o"
+	@echo "... src/data/DataPersistence.i"
+	@echo "... src/data/DataPersistence.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -856,6 +1106,15 @@ help:
 	@echo "... src/phase7_performance_demo.o"
 	@echo "... src/phase7_performance_demo.i"
 	@echo "... src/phase7_performance_demo.s"
+	@echo "... src/phase8_integration_demo.o"
+	@echo "... src/phase8_integration_demo.i"
+	@echo "... src/phase8_integration_demo.s"
+	@echo "... src/risk/EnhancedRiskModels.o"
+	@echo "... src/risk/EnhancedRiskModels.i"
+	@echo "... src/risk/EnhancedRiskModels.s"
+	@echo "... src/risk/EnhancedRiskModelsImplementation.o"
+	@echo "... src/risk/EnhancedRiskModelsImplementation.i"
+	@echo "... src/risk/EnhancedRiskModelsImplementation.s"
 .PHONY : help
 
 

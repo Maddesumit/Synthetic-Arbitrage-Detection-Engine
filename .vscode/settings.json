@@ -1,4 +1,72 @@
 {
+    // Performance optimizations for better VS Code responsiveness
+    "extensions.autoUpdate": false,
+    "extensions.autoCheckUpdates": false,
+    "workbench.enableExperiments": false,
+    "telemetry.telemetryLevel": "off",
+    "search.followSymlinks": false,
+    "search.useIgnoreFiles": true,
+    
+    // File watching and editor optimizations
+    "editor.minimap.enabled": false,
+    "editor.codeLens": false,
+    "editor.hover.sticky": false,
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "git.autorefresh": false,
+    "git.decorations.enabled": false,
+    
+    // Language-specific optimizations
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "typescript.suggest.autoImports": false,
+    "cmake.configureOnOpen": false,
+    "cmake.configureOnEdit": false,
+    
+    "files.exclude": {
+        "**/build/**": true,
+        "**/logs/**": true,
+        "**/*.log": true,
+        "**/external/**": true,
+        "**/.git/**": true,
+        "**/node_modules/**": true,
+        "**/*.o": true,
+        "**/*.a": true,
+        "**/*.so": true,
+        "**/*.dylib": true,
+        "**/CMakeFiles/**": true,
+        "**/CMakeCache.txt": true,
+        "**/_deps/**": true,
+        "**/nlohmann_json-prefix/**": true,
+        "**/spdlog-prefix/**": true
+    },
+    "search.exclude": {
+        "**/build/**": true,
+        "**/logs/**": true,
+        "**/*.log": true,
+        "**/external/**": true,
+        "**/CMakeFiles/**": true,
+        "**/_deps/**": true,
+        "**/nlohmann_json-prefix/**": true,
+        "**/spdlog-prefix/**": true
+    },
+    "files.watcherExclude": {
+        "**/build/**": true,
+        "**/logs/**": true,
+        "**/*.log": true,
+        "**/external/**": true,
+        "**/CMakeFiles/**": true,
+        "**/_deps/**": true,
+        "**/nlohmann_json-prefix/**": true,
+        "**/spdlog-prefix/**": true
+    },
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "C_Cpp.default.browse.limitSymbolsToIncludedHeaders": true,
+    "C_Cpp.default.intelliSenseMode": "macos-clang-x64",
+    "C_Cpp.maxMemory": 2048,
+    "C_Cpp.maxCachedProcesses": 4,
+    "C_Cpp.codeAnalysis.maxMemory": 1024,
+    "C_Cpp.enhancedColorization": "disabled",
     "files.associations": {
         "__locale": "cpp",
         "__threading_support": "cpp",
@@ -56,6 +124,9 @@
         "variant": "cpp",
         "vector": "cpp",
         "algorithm": "cpp",
-        "span": "cpp"
+        "span": "cpp",
+        "*.hpp": "cpp",
+        "*.h": "cpp",
+        "regex": "cpp"
     }
 }

@@ -24,6 +24,23 @@ find_package(Threads REQUIRED)
 find_package(Boost REQUIRED COMPONENTS system filesystem thread)
 find_package(OpenSSL REQUIRED)
 
+# Find Eigen3
+find_package(Eigen3 REQUIRED)
+if(Eigen3_FOUND)
+    message(STATUS "Found Eigen3: ${EIGEN3_INCLUDE_DIR}")
+else()
+    # Fallback for systems where Eigen3 is not found via find_package
+    find_path(EIGEN3_INCLUDE_DIR Eigen/Dense
+        PATHS /opt/homebrew/include/eigen3 /usr/local/include/eigen3 /usr/include/eigen3
+        PATH_SUFFIXES ""
+    )
+    if(EIGEN3_INCLUDE_DIR)
+        message(STATUS "Found Eigen3 headers at: ${EIGEN3_INCLUDE_DIR}")
+    else()
+        message(FATAL_ERROR "Eigen3 not found!")
+    endif()
+endif()
+
 # Add RapidJSON headers (header-only library)
 find_path(RAPIDJSON_INCLUDE_DIR rapidjson/document.h
     PATHS /opt/homebrew/include /usr/local/include
@@ -396,4 +413,81 @@ if(LZ4_FOUND)
 else()
     # Fallback: disable LZ4 compression
     target_compile_definitions(performance_benchmark PRIVATE -DNO_LZ4_COMPRESSION)
+endif()
+
+# Phase 8: Advanced Features & Integration libraries
+add_library(arbitrage_config
+    src/config/ConfigurationManager.cpp
+)
+target_link_libraries(arbitrage_config arbitrage_utils Threads::Threads)
+
+add_library(arbitrage_enhanced_risk
+    src/risk/EnhancedRiskModels.cpp
+    src/risk/EnhancedRiskModelsImplementation.cpp
+)
+target_link_libraries(arbitrage_enhanced_risk arbitrage_core arbitrage_utils Threads::Threads)
+if(Eigen3_FOUND)
+    target_link_libraries(arbitrage_enhanced_risk Eigen3::Eigen)
+else()
+    target_include_directories(arbitrage_enhanced_risk PRIVATE ${EIGEN3_INCLUDE_DIR})
+endif()
+
+add_library(arbitrage_persistence
+    src/data/DataPersistence.cpp
+)
+# Find SQLite for DataPersistence
+find_package(PkgConfig QUIET)
+if(PkgConfig_FOUND)
+    pkg_check_modules(SQLite3 QUIET sqlite3)
+endif()
+
+if(NOT SQLite3_FOUND)
+    # Try to find SQLite manually
+    find_path(SQLite3_INCLUDE_DIRS sqlite3.h
+        PATHS /opt/homebrew/include /usr/local/include /usr/include
+        PATH_SUFFIXES "" sqlite sqlite3
+    )
+    find_library(SQLite3_LIBRARIES
+        NAMES sqlite3
+        PATHS /opt/homebrew/lib /usr/local/lib /usr/lib
+    )
+    if(SQLite3_INCLUDE_DIRS AND SQLite3_LIBRARIES)
+        set(SQLite3_FOUND TRUE)
+        message(STATUS "Found SQLite3: ${SQLite3_LIBRARIES}")
+    else()
+        message(WARNING "SQLite3 not found, persistence features may not work")
+    endif()
+endif()
+
+target_link_libraries(arbitrage_persistence arbitrage_data arbitrage_utils Threads::Threads)
+if(SQLite3_FOUND)
+    target_include_directories(arbitrage_persistence PRIVATE ${SQLite3_INCLUDE_DIRS})
+    target_link_libraries(arbitrage_persistence ${SQLite3_LIBRARIES})
+endif()
+target_include_directories(arbitrage_persistence PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/external/xsimd/include)
+
+add_library(arbitrage_api
+    src/api/ApiFramework.cpp
+    src/api/ApiServerImplementation.cpp
+)
+target_link_libraries(arbitrage_api arbitrage_core arbitrage_utils Threads::Threads OpenSSL::SSL OpenSSL::Crypto)
+
+# Phase 8 integration demo
+add_executable(phase8_integration_demo src/phase8_integration_demo.cpp)
+target_link_libraries(phase8_integration_demo 
+    arbitrage_config
+    arbitrage_enhanced_risk  
+    arbitrage_persistence
+    arbitrage_api
+    arbitrage_core
+    arbitrage_data
+    arbitrage_utils
+    arbitrage_performance
+    arbitrage_network
+    arbitrage_monitoring
+    Threads::Threads
+)
+if(SQLite3_FOUND)
+    target_include_directories(phase8_integration_demo PRIVATE ${SQLite3_INCLUDE_DIRS})
+    target_link_libraries(phase8_integration_demo ${SQLite3_LIBRARIES})
 endif()
