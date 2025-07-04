@@ -1,0 +1,2 @@
+/usr/bin/ar qc libarbitrage_persistence.a CMakeFiles/arbitrage_persistence.dir/src/data/DataPersistence.cpp.o
+/usr/bin/ranlib libarbitrage_persistence.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libarbitrage_enhanced_risk.a CMakeFiles/arbitrage_enhanced_risk.dir/src/risk/EnhancedRiskModels.cpp.o CMakeFiles/arbitrage_enhanced_risk.dir/src/risk/EnhancedRiskModelsImplementation.cpp.o
+/usr/bin/ranlib libarbitrage_enhanced_risk.a

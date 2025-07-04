@@ -1,0 +1,2 @@
+/usr/bin/ar qc libarbitrage_api.a CMakeFiles/arbitrage_api.dir/src/api/ApiFramework.cpp.o CMakeFiles/arbitrage_api.dir/src/api/ApiServerImplementation.cpp.o
+/usr/bin/ranlib libarbitrage_api.a

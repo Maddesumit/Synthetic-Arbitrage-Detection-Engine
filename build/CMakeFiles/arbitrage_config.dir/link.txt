@@ -1,0 +1,2 @@
+/usr/bin/ar qc libarbitrage_config.a CMakeFiles/arbitrage_config.dir/src/config/ConfigurationManager.cpp.o
+/usr/bin/ranlib libarbitrage_config.a
