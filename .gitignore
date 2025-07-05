@@ -1,0 +1,51 @@
+# Build directories
+build/
+_build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Log files
+logs/
+*.log
+
+# Compiled binaries
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# External dependencies
+external/
+_deps/
+*-prefix/
+nlohmann_json-prefix/
+spdlog-prefix/
+
+# IDE files
+.vscode/
+.vs/
+*.vcxproj*
+*.sln
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# Performance profiling files
+*.prof
+callgrind.out.*
+cachegrind.out.*
+massif.out.*
+
+# Core dumps
+core.*

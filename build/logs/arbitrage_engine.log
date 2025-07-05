@@ -1,4 +1,0 @@
-[2025-07-02 22:10:46.767] [main] [info] [thread 85046] Logging system initialized successfully
-[2025-07-02 22:10:46.768] [main] [info] [thread 85046] Console level: 2, File level: 1
-[2025-07-02 22:10:46.768] [main] [info] [thread 85046] Starting Phase 2 Market Data Demo
-[2025-07-02 22:10:46.768] [main] [error] [thread 85046] Demo failed with exception: Failed to load configuration from: config/config.json

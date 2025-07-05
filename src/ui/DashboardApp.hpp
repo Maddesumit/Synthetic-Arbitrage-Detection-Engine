@@ -161,6 +161,15 @@ private:
     HttpResponse handleApiPortfolioMetrics(const HttpRequest& request);
     HttpResponse handleApiAdvancedRisk(const HttpRequest& request);
     
+    // Phase 7: Performance Monitoring API handlers
+    HttpResponse handleApiSystemMetrics(const HttpRequest& request);
+    HttpResponse handleApiLatencyMetrics(const HttpRequest& request);
+    HttpResponse handleApiThroughputMetrics(const HttpRequest& request);
+    HttpResponse handleApiHealthStatus(const HttpRequest& request);
+    HttpResponse handleApiBottlenecks(const HttpRequest& request);
+    HttpResponse handleApiPerformanceHistory(const HttpRequest& request);
+    HttpResponse handleApiExportReport(const HttpRequest& request);
+    
     // Utility methods
     HttpResponse createJsonResponse(const nlohmann::json& data) const;
     HttpResponse createErrorResponse(int status_code, const std::string& message) const;

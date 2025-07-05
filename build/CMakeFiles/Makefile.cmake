@@ -89,6 +89,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-CXX.cmake"
   "/opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang.cmake"
   "/opt/homebrew/share/cmake/Modules/Platform/UnixPaths.cmake"
+  "/opt/homebrew/share/eigen3/cmake/Eigen3Config.cmake"
+  "/opt/homebrew/share/eigen3/cmake/Eigen3ConfigVersion.cmake"
+  "/opt/homebrew/share/eigen3/cmake/Eigen3Targets.cmake"
   )
 
 # The corresponding makefile is:
@@ -154,6 +157,11 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/arbitrage_monitoring.dir/DependInfo.cmake"
   "CMakeFiles/phase7_performance_demo.dir/DependInfo.cmake"
   "CMakeFiles/performance_benchmark.dir/DependInfo.cmake"
+  "CMakeFiles/arbitrage_config.dir/DependInfo.cmake"
+  "CMakeFiles/arbitrage_enhanced_risk.dir/DependInfo.cmake"
+  "CMakeFiles/arbitrage_persistence.dir/DependInfo.cmake"
+  "CMakeFiles/arbitrage_api.dir/DependInfo.cmake"
+  "CMakeFiles/phase8_integration_demo.dir/DependInfo.cmake"
   "src/core/CMakeFiles/arbitrage_core.dir/DependInfo.cmake"
   "src/data/CMakeFiles/arbitrage_data.dir/DependInfo.cmake"
   "src/utils/CMakeFiles/arbitrage_utils.dir/DependInfo.cmake"
