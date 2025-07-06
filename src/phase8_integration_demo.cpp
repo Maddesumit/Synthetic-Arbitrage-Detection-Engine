@@ -17,6 +17,9 @@ using namespace arbitrage;
 
 int main() {
     try {
+        // Initialize logger first
+        utils::Logger::initialize("logs/phase8_demo.log", utils::Logger::Level::INFO);
+        
         std::cout << "=== Phase 8: Advanced Features & Integration Demo ===\n";
         std::cout << "This demo showcases the advanced integration features implemented in Phase 8.\n\n";
 
